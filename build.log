@@ -1,0 +1,1928 @@
+Scanning dependencies of target Boost
+Scanning dependencies of target oprequest-tp
+[  0%] Creating directories for 'Boost'
+[  0%] generating /app/ceph-14.2.11/build/include/tracing/oprequest.h
+[  0%] Built target oprequest-tp
+Scanning dependencies of target common_utf8
+[  0%] No download step for 'Boost'
+[  0%] Building C object src/common/CMakeFiles/common_utf8.dir/utf8.c.o
+[  0%] No patch step for 'Boost'
+[  0%] No update step for 'Boost'
+[  0%] Performing configure step for 'Boost'
+Building Boost.Build engine with toolset gcc... [  0%] Linking C static library ../../lib/libcommon_utf8.a
+[  0%] Built target common_utf8
+Scanning dependencies of target common_mountcephfs_objs
+[  0%] Building C object src/common/CMakeFiles/common_mountcephfs_objs.dir/armor.c.o
+[  0%] Building C object src/common/CMakeFiles/common_mountcephfs_objs.dir/safe_io.c.o
+[  0%] Building C object src/common/CMakeFiles/common_mountcephfs_objs.dir/module.c.o
+[  0%] Building C object src/common/CMakeFiles/common_mountcephfs_objs.dir/addr_parsing.c.o
+[  0%] Built target common_mountcephfs_objs
+Scanning dependencies of target rocksdb_ext
+[  1%] Creating directories for 'rocksdb_ext'
+[  1%] No download step for 'rocksdb_ext'
+[  1%] No patch step for 'rocksdb_ext'
+[  1%] No update step for 'rocksdb_ext'
+[  1%] Performing configure step for 'rocksdb_ext'
+-- The C compiler identification is GNU 4.8.5
+-- The CXX compiler identification is GNU 8.3.1
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /opt/rh/devtoolset-8/root/usr/bin/c++
+-- Check for working CXX compiler: /opt/rh/devtoolset-8/root/usr/bin/c++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
+-- Found snappy: /lib64/libsnappy.so  
+-- Found ZLIB: /usr/lib64/libz.so (found version "1.2.7") 
+-- Found lz4: /lib64/liblz4.so  
+-- Could NOT find Git (missing: GIT_EXECUTABLE) 
+-- Performing Test HAVE_OMIT_LEAF_FRAME_POINTER
+-- Performing Test HAVE_OMIT_LEAF_FRAME_POINTER - Success
+-- Performing Test HAVE_SSE42
+-- Performing Test HAVE_SSE42 - Success
+-- Performing Test HAVE_THREAD_LOCAL
+-- Performing Test HAVE_THREAD_LOCAL - Success
+-- Enabling RTTI
+-- Performing Test HAVE_FALLOCATE
+-- Performing Test HAVE_FALLOCATE - Success
+-- Performing Test HAVE_SYNC_FILE_RANGE_WRITE
+-- Performing Test HAVE_SYNC_FILE_RANGE_WRITE - Success
+-- Performing Test HAVE_PTHREAD_MUTEX_ADAPTIVE_NP
+-- Performing Test HAVE_PTHREAD_MUTEX_ADAPTIVE_NP - Success
+-- Looking for malloc_usable_size
+-- Looking for malloc_usable_size - found
+-- Looking for sched_getcpu
+-- Looking for sched_getcpu - found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- JNI library is disabled
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /app/ceph-14.2.11/build/src/rocksdb
+[  1%] Performing forcebuild step for 'rocksdb_ext'
+[  1%] Performing build step for 'rocksdb_ext'
+Scanning dependencies of target build_version
+[  0%] Building CXX object CMakeFiles/build_version.dir/build_version.cc.o
+[  0%] Built target build_version
+Scanning dependencies of target rocksdb
+[  0%] Building CXX object CMakeFiles/rocksdb.dir/cache/clock_cache.cc.o
+[  0%] Building CXX object CMakeFiles/rocksdb.dir/cache/lru_cache.cc.o
+[  0%] Building CXX object CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.o
+[  0%] Building CXX object CMakeFiles/rocksdb.dir/db/builder.cc.o
+tools/build/src/engine/b2
+Detecting Python version... 2.7
+Detecting Python root... /usr
+Unicode/ICU support for Boost.Regex?... not found.
+Generating Boost.Build configuration in project-config.jam for gcc...
+
+Bootstrapping is done. To build, run:
+
+    ./b2
+    
+To generate header files, run:
+
+    ./b2 headers
+
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+   - Command line help:
+     ./b2 --help
+     
+   - Getting started guide: 
+     http://www.boost.org/more/getting_started/unix-variants.html
+     
+   - Boost.Build documentation:
+     http://www.boost.org/build/
+
+[  1%] Performing build step for 'Boost'
+Performing configuration checks
+
+    - default address-model    : 64-bit
+    - default architecture     : x86
+    - C++11 mutex              : yes
+    - lockfree boost::atomic_flag : yes
+    - zlib                     : yes
+    - bzip2                    : no
+    - lzma                     : yes
+    - zstd                     : no
+    - lzma                     : yes
+    - has_lzma_cputhreads builds : yes
+    - has_icu builds           : no
+
+Component configuration:
+
+    - atomic                   : building
+    - chrono                   : building
+    - container                : building
+    - context                  : building
+    - contract                 : not building
+    - coroutine                : building
+    - date_time                : building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - headers                  : not building
+    - iostreams                : building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : building
+    - python                   : building
+    - random                   : building
+    - regex                    : building
+    - serialization            : not building
+    - stacktrace               : not building
+    - system                   : building
+    - test                     : not building
+    - thread                   : building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+[  0%] Building CXX object CMakeFiles/rocksdb.dir/db/c.cc.o
+[  0%] Building CXX object CMakeFiles/rocksdb.dir/db/column_family.cc.o
+[  0%] Building CXX object CMakeFiles/rocksdb.dir/db/compacted_db_impl.cc.o
+[  3%] Building CXX object CMakeFiles/rocksdb.dir/db/compaction.cc.o
+[  3%] Building CXX object CMakeFiles/rocksdb.dir/db/compaction_iterator.cc.o
+[  3%] Building CXX object CMakeFiles/rocksdb.dir/db/compaction_job.cc.o
+[  3%] Building CXX object CMakeFiles/rocksdb.dir/db/compaction_picker.cc.o
+[  3%] Building CXX object CMakeFiles/rocksdb.dir/db/compaction_picker_fifo.cc.o
+[  3%] Building CXX object CMakeFiles/rocksdb.dir/db/compaction_picker_universal.cc.o
+[  3%] Building CXX object CMakeFiles/rocksdb.dir/db/convenience.cc.o
+[  6%] Building CXX object CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.o
+[  6%] Building CXX object CMakeFiles/rocksdb.dir/db/db_impl.cc.o
+[  6%] Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_write.cc.o
+[  6%] Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_compaction_flush.cc.o
+[  6%] Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_files.cc.o
+[  6%] Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_open.cc.o
+[  6%] Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_debug.cc.o
+[  6%] Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_experimental.cc.o
+[ 10%] Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_readonly.cc.o
+[ 10%] Building CXX object CMakeFiles/rocksdb.dir/db/db_impl_secondary.cc.o
+[ 10%] Building CXX object CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.o
+[ 10%] Building CXX object CMakeFiles/rocksdb.dir/db/db_iter.cc.o
+[ 10%] Building CXX object CMakeFiles/rocksdb.dir/db/dbformat.cc.o
+[ 10%] Building CXX object CMakeFiles/rocksdb.dir/db/error_handler.cc.o
+[  1%] Performing install step for 'Boost'
+Performing configuration checks
+
+    - default address-model    : 64-bit (cached)
+    - default architecture     : x86 (cached)
+[ 10%] Building CXX object CMakeFiles/rocksdb.dir/db/event_helpers.cc.o
+    - C++11 mutex              : yes (cached)
+    - lockfree boost::atomic_flag : yes (cached)
+[ 13%] Building CXX object CMakeFiles/rocksdb.dir/db/experimental.cc.o
+    - zlib                     : yes
+    - bzip2                    : no
+    - lzma                     : yes (cached)
+    - zstd                     : no
+    - lzma                     : yes (cached)
+    - has_lzma_cputhreads builds : yes (cached)
+    - has_icu builds           : no  (cached)
+[ 13%] Building CXX object CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.o
+[ 13%] Building CXX object CMakeFiles/rocksdb.dir/db/file_indexer.cc.o
+    - zlib                     : yes (cached)
+    - bzip2                    : no  (cached)
+    - lzma                     : yes (cached)
+    - zstd                     : no  (cached)
+[ 13%] Building CXX object CMakeFiles/rocksdb.dir/db/flush_job.cc.o
+
+Component configuration:
+
+    - atomic                   : building
+    - chrono                   : building
+    - container                : building
+    - context                  : building
+    - contract                 : not building
+    - coroutine                : building
+    - date_time                : building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - headers                  : not building
+    - iostreams                : building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : building
+    - python                   : building
+    - random                   : building
+    - regex                    : building
+    - serialization            : not building
+    - stacktrace               : not building
+    - system                   : building
+    - test                     : not building
+    - thread                   : building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+[ 13%] Building CXX object CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.o
+[ 13%] Building CXX object CMakeFiles/rocksdb.dir/db/forward_iterator.cc.o
+[ 13%] Building CXX object CMakeFiles/rocksdb.dir/db/internal_stats.cc.o
+[ 13%] Building CXX object CMakeFiles/rocksdb.dir/db/in_memory_stats_history.cc.o
+[ 17%] Building CXX object CMakeFiles/rocksdb.dir/db/logs_with_prep_tracker.cc.o
+[ 17%] Building CXX object CMakeFiles/rocksdb.dir/db/log_reader.cc.o
+[ 17%] Building CXX object CMakeFiles/rocksdb.dir/db/log_writer.cc.o
+[ 17%] Building CXX object CMakeFiles/rocksdb.dir/db/malloc_stats.cc.o
+[ 17%] Building CXX object CMakeFiles/rocksdb.dir/db/memtable.cc.o
+[ 17%] Building CXX object CMakeFiles/rocksdb.dir/db/memtable_list.cc.o
+[ 17%] Building CXX object CMakeFiles/rocksdb.dir/db/merge_helper.cc.o
+[ 20%] Building CXX object CMakeFiles/rocksdb.dir/db/merge_operator.cc.o
+[ 20%] Building CXX object CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.o
+[ 20%] Building CXX object CMakeFiles/rocksdb.dir/db/range_tombstone_fragmenter.cc.o
+[ 20%] Building CXX object CMakeFiles/rocksdb.dir/db/repair.cc.o
+[ 20%] Building CXX object CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.o
+[ 20%] Building CXX object CMakeFiles/rocksdb.dir/db/table_cache.cc.o
+[ 20%] Building CXX object CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.o
+[ 20%] Building CXX object CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.o
+[ 24%] Building CXX object CMakeFiles/rocksdb.dir/db/version_builder.cc.o
+[ 24%] Building CXX object CMakeFiles/rocksdb.dir/db/version_edit.cc.o
+[ 24%] Building CXX object CMakeFiles/rocksdb.dir/db/version_set.cc.o
+[ 24%] Building CXX object CMakeFiles/rocksdb.dir/db/wal_manager.cc.o
+[ 24%] Building CXX object CMakeFiles/rocksdb.dir/db/write_batch.cc.o
+[ 24%] Building CXX object CMakeFiles/rocksdb.dir/db/write_batch_base.cc.o
+[ 24%] Building CXX object CMakeFiles/rocksdb.dir/db/write_controller.cc.o
+[ 27%] Building CXX object CMakeFiles/rocksdb.dir/db/write_thread.cc.o
+[ 27%] Building CXX object CMakeFiles/rocksdb.dir/env/env.cc.o
+[ 27%] Building CXX object CMakeFiles/rocksdb.dir/env/env_chroot.cc.o
+[ 27%] Building CXX object CMakeFiles/rocksdb.dir/env/env_encryption.cc.o
+[ 27%] Building CXX object CMakeFiles/rocksdb.dir/env/env_hdfs.cc.o
+[ 27%] Building CXX object CMakeFiles/rocksdb.dir/env/mock_env.cc.o
+[ 27%] Building CXX object CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.o
+[ 27%] Building CXX object CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.o
+[ 31%] Building CXX object CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.o
+[ 31%] Building CXX object CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.o
+[ 31%] Building CXX object CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.o
+[ 31%] Building CXX object CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.o
+[ 31%] Building CXX object CMakeFiles/rocksdb.dir/monitoring/histogram.cc.o
+[ 31%] Building CXX object CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.o
+[ 31%] Building CXX object CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.o
+[ 31%] Building CXX object CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.o
+[ 34%] Building CXX object CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.o
+[ 34%] Building CXX object CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.o
+[ 34%] Building CXX object CMakeFiles/rocksdb.dir/monitoring/statistics.cc.o
+[ 34%] Building CXX object CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.o
+[ 34%] Building CXX object CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.o
+[ 34%] Building CXX object CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.o
+[ 34%] Building CXX object CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.o
+[ 37%] Building CXX object CMakeFiles/rocksdb.dir/options/cf_options.cc.o
+[ 37%] Building CXX object CMakeFiles/rocksdb.dir/options/db_options.cc.o
+[ 37%] Building CXX object CMakeFiles/rocksdb.dir/options/options.cc.o
+[ 37%] Building CXX object CMakeFiles/rocksdb.dir/options/options_helper.cc.o
+[ 37%] Building CXX object CMakeFiles/rocksdb.dir/options/options_parser.cc.o
+[ 37%] Building CXX object CMakeFiles/rocksdb.dir/options/options_sanity_check.cc.o
+[ 37%] Building CXX object CMakeFiles/rocksdb.dir/port/stack_trace.cc.o
+[ 37%] Building CXX object CMakeFiles/rocksdb.dir/table/adaptive_table_factory.cc.o
+[ 41%] Building CXX object CMakeFiles/rocksdb.dir/table/block.cc.o
+[ 41%] Building CXX object CMakeFiles/rocksdb.dir/table/block_based_filter_block.cc.o
+[ 41%] Building CXX object CMakeFiles/rocksdb.dir/table/block_based_table_builder.cc.o
+[ 41%] Building CXX object CMakeFiles/rocksdb.dir/table/block_based_table_factory.cc.o
+[ 41%] Building CXX object CMakeFiles/rocksdb.dir/table/block_based_table_reader.cc.o
+[ 41%] Building CXX object CMakeFiles/rocksdb.dir/table/block_builder.cc.o
+[ 41%] Building CXX object CMakeFiles/rocksdb.dir/table/block_fetcher.cc.o
+[ 44%] Building CXX object CMakeFiles/rocksdb.dir/table/block_prefix_index.cc.o
+[ 44%] Building CXX object CMakeFiles/rocksdb.dir/table/bloom_block.cc.o
+[ 44%] Building CXX object CMakeFiles/rocksdb.dir/table/cuckoo_table_builder.cc.o
+[ 44%] Building CXX object CMakeFiles/rocksdb.dir/table/cuckoo_table_factory.cc.o
+[ 44%] Building CXX object CMakeFiles/rocksdb.dir/table/cuckoo_table_reader.cc.o
+[ 44%] Building CXX object CMakeFiles/rocksdb.dir/table/data_block_hash_index.cc.o
+[ 44%] Building CXX object CMakeFiles/rocksdb.dir/table/data_block_footer.cc.o
+[ 44%] Building CXX object CMakeFiles/rocksdb.dir/table/flush_block_policy.cc.o
+[  1%] Completed 'Boost'
+[  1%] Built target Boost
+Scanning dependencies of target objectstore-tp
+[  2%] generating /app/ceph-14.2.11/build/include/tracing/objectstore.h
+[  2%] Built target objectstore-tp
+[ 48%] Building CXX object CMakeFiles/rocksdb.dir/table/format.cc.o
+Scanning dependencies of target ceph_lz4
+[  2%] Building CXX object src/compressor/lz4/CMakeFiles/ceph_lz4.dir/CompressionPluginLZ4.cc.o
+[ 48%] Building CXX object CMakeFiles/rocksdb.dir/table/full_filter_block.cc.o
+[ 48%] Building CXX object CMakeFiles/rocksdb.dir/table/get_context.cc.o
+[  2%] Linking CXX shared library ../../../lib/libceph_lz4.so
+[  2%] Built target ceph_lz4
+Scanning dependencies of target ceph_snappy
+[  3%] Building CXX object src/compressor/snappy/CMakeFiles/ceph_snappy.dir/CompressionPluginSnappy.cc.o
+[ 48%] Building CXX object CMakeFiles/rocksdb.dir/table/index_builder.cc.o
+[ 48%] Building CXX object CMakeFiles/rocksdb.dir/table/iterator.cc.o
+[ 48%] Building CXX object CMakeFiles/rocksdb.dir/table/merging_iterator.cc.o
+[  3%] Linking CXX shared library ../../../lib/libceph_snappy.so
+[  3%] Built target ceph_snappy
+Scanning dependencies of target ceph_zlib
+[  3%] Building CXX object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/CompressionPluginZlib.cc.o
+[ 48%] Building CXX object CMakeFiles/rocksdb.dir/table/meta_blocks.cc.o
+[  3%] Building CXX object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/ZlibCompressor.cc.o
+[ 51%] Building CXX object CMakeFiles/rocksdb.dir/table/partitioned_filter_block.cc.o
+[ 51%] Building CXX object CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.o
+[ 51%] Building CXX object CMakeFiles/rocksdb.dir/table/plain_table_builder.cc.o
+[ 51%] Building CXX object CMakeFiles/rocksdb.dir/table/plain_table_factory.cc.o
+[  3%] Building ASM object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/crc32_gzip.asm.o
+[  3%] Building C object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/crc32_gzip_base.c.o
+[  3%] Building ASM object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/detect_repeated_char.asm.o
+[  3%] Building C object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/encode_df.c.o
+[  4%] Building ASM object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/encode_df_04.asm.o
+[  4%] Building C object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/flatten_ll.c.o
+[  4%] Building C object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/huff_codes.c.o
+[ 51%] Building CXX object CMakeFiles/rocksdb.dir/table/plain_table_index.cc.o
+[  4%] Building C object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/hufftables_c.c.o
+[  4%] Building C object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/igzip.c.o
+[ 51%] Building CXX object CMakeFiles/rocksdb.dir/table/plain_table_key_coding.cc.o
+[  4%] Building C object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/igzip_base.c.o
+[  4%] Building ASM object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/igzip_body_01.asm.o
+[  4%] Building ASM object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/igzip_body_02.asm.o
+[  4%] Building ASM object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/igzip_body_04.asm.o
+[  4%] Building ASM object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/igzip_finish.asm.o
+[  4%] Building C object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/igzip_icf_base.c.o
+[  4%] Building ASM object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/igzip_icf_body_01.asm.o
+[  4%] Building ASM object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/igzip_icf_body_02.asm.o
+[  4%] Building ASM object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/igzip_icf_body_04.asm.o
+[  4%] Building ASM object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/igzip_icf_finish.asm.o
+[  4%] Building ASM object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/igzip_multibinary.asm.o
+[  4%] Building ASM object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/igzip_update_histogram_01.asm.o
+[  4%] Building ASM object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/igzip_update_histogram_04.asm.o
+[  4%] Building ASM object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/proc_heap.asm.o
+[  4%] Building ASM object src/compressor/zlib/CMakeFiles/ceph_zlib.dir/__/__/isa-l/igzip/rfc1951_lookup.asm.o
+[  4%] Linking CXX shared library ../../../lib/libceph_zlib.so
+[  4%] Built target ceph_zlib
+Scanning dependencies of target zstd_ext
+[  4%] Creating directories for 'zstd_ext'
+[  4%] No download step for 'zstd_ext'
+[  4%] No patch step for 'zstd_ext'
+[  4%] No update step for 'zstd_ext'
+[  4%] Performing configure step for 'zstd_ext'
+-- The C compiler identification is GNU 8.3.1
+-- The CXX compiler identification is GNU 8.3.1
+-- Check for working C compiler: /opt/rh/devtoolset-8/root/usr/bin/cc
+-- Check for working C compiler: /opt/rh/devtoolset-8/root/usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /opt/rh/devtoolset-8/root/usr/bin/c++
+[ 51%] Building CXX object CMakeFiles/rocksdb.dir/table/plain_table_reader.cc.o
+-- Check for working CXX compiler: /opt/rh/devtoolset-8/root/usr/bin/c++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CXX_FLAG_STD_CPLUSPLUS11
+-- Performing Test CXX_FLAG_STD_CPLUSPLUS11 - Success
+-- Performing Test C_FLAG_STD_C99
+-- Performing Test C_FLAG_STD_C99 - Success
+-- Performing Test C_FLAG_WALL
+-- Performing Test C_FLAG_WALL - Success
+-- Performing Test CXX_FLAG_WALL
+-- Performing Test CXX_FLAG_WALL - Success
+-- Performing Test C_FLAG_WEXTRA
+-- Performing Test C_FLAG_WEXTRA - Success
+-- Performing Test CXX_FLAG_WEXTRA
+-- Performing Test CXX_FLAG_WEXTRA - Success
+-- Performing Test C_FLAG_WUNDEF
+-- Performing Test C_FLAG_WUNDEF - Success
+-- Performing Test CXX_FLAG_WUNDEF
+-- Performing Test CXX_FLAG_WUNDEF - Success
+-- Performing Test C_FLAG_WSHADOW
+-- Performing Test C_FLAG_WSHADOW - Success
+-- Performing Test CXX_FLAG_WSHADOW
+-- Performing Test CXX_FLAG_WSHADOW - Success
+-- Performing Test C_FLAG_WCAST_ALIGN
+-- Performing Test C_FLAG_WCAST_ALIGN - Success
+-- Performing Test CXX_FLAG_WCAST_ALIGN
+-- Performing Test CXX_FLAG_WCAST_ALIGN - Success
+-- Performing Test C_FLAG_WCAST_QUAL
+-- Performing Test C_FLAG_WCAST_QUAL - Success
+-- Performing Test CXX_FLAG_WCAST_QUAL
+-- Performing Test CXX_FLAG_WCAST_QUAL - Success
+-- Performing Test C_FLAG_WSTRICT_PROTOTYPES
+-- Performing Test C_FLAG_WSTRICT_PROTOTYPES - Success
+-- ZSTD_LEGACY_SUPPORT not defined!
+ZSTD VERSION 1.3.2
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /app/ceph-14.2.11/build/src/compressor/zstd/libzstd
+[  5%] Performing forcebuild step for 'zstd_ext'
+[  5%] Performing build step for 'zstd_ext'
+Scanning dependencies of target libzstd_static
+[  4%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/common/entropy_common.c.o
+[  8%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/common/fse_decompress.c.o
+[ 12%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/common/threading.c.o
+[ 16%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/common/pool.c.o
+[ 20%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/common/zstd_common.c.o
+[ 24%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/common/error_private.c.o
+[ 28%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/common/xxhash.c.o
+[ 32%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/compress/fse_compress.c.o
+[ 36%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/compress/huf_compress.c.o
+[ 40%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/compress/zstd_compress.c.o
+[ 51%] Building CXX object CMakeFiles/rocksdb.dir/table/sst_file_reader.cc.o
+[ 44%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/compress/zstdmt_compress.c.o
+[ 48%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/compress/zstd_fast.c.o
+[ 52%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/compress/zstd_double_fast.c.o
+[ 56%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/compress/zstd_lazy.c.o
+[ 55%] Building CXX object CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.o
+[ 60%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/compress/zstd_opt.c.o
+[ 64%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/compress/zstd_ldm.c.o
+[ 68%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/decompress/huf_decompress.c.o
+[ 55%] Building CXX object CMakeFiles/rocksdb.dir/table/table_properties.cc.o
+[ 72%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/decompress/zstd_decompress.c.o
+[ 76%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/dictBuilder/cover.c.o
+[ 80%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/dictBuilder/divsufsort.c.o
+[ 55%] Building CXX object CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.o
+[ 84%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/dictBuilder/zdict.c.o
+[ 55%] Building CXX object CMakeFiles/rocksdb.dir/tools/db_bench_tool.cc.o
+[ 55%] Building CXX object CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.o
+[ 88%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/deprecated/zbuff_common.c.o
+[ 92%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/deprecated/zbuff_compress.c.o
+[ 96%] Building C object lib/CMakeFiles/libzstd_static.dir/app/ceph-14.2.11/src/zstd/lib/deprecated/zbuff_decompress.c.o
+[100%] Linking C static library libzstd.a
+[100%] Built target libzstd_static
+[  5%] Performing install step for 'zstd_ext'
+[  5%] Completed 'zstd_ext'
+[  5%] Built target zstd_ext
+Scanning dependencies of target erasure_code_objs
+[  5%] Building CXX object src/erasure-code/CMakeFiles/erasure_code_objs.dir/ErasureCode.cc.o
+[ 55%] Building CXX object CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.o
+[  5%] Built target erasure_code_objs
+Scanning dependencies of target jerasure_utils
+[  5%] Building CXX object src/erasure-code/jerasure/CMakeFiles/jerasure_utils.dir/ErasureCodePluginJerasure.cc.o
+[ 55%] Building CXX object CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.o
+[ 58%] Building CXX object CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.o
+[  6%] Building CXX object src/erasure-code/jerasure/CMakeFiles/jerasure_utils.dir/ErasureCodeJerasure.cc.o
+[ 58%] Building CXX object CMakeFiles/rocksdb.dir/tools/trace_analyzer_tool.cc.o
+[ 58%] Building CXX object CMakeFiles/rocksdb.dir/util/arena.cc.o
+[ 58%] Building CXX object CMakeFiles/rocksdb.dir/util/auto_roll_logger.cc.o
+[ 58%] Building CXX object CMakeFiles/rocksdb.dir/util/bloom.cc.o
+[ 58%] Building CXX object CMakeFiles/rocksdb.dir/util/coding.cc.o
+[ 58%] Building CXX object CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.o
+[ 58%] Building CXX object CMakeFiles/rocksdb.dir/util/comparator.cc.o
+[ 62%] Building CXX object CMakeFiles/rocksdb.dir/util/compression_context_cache.cc.o
+[  6%] Built target jerasure_utils
+Scanning dependencies of target gf-complete_objs
+[  6%] Building C object src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_cpu.c.o
+[  6%] Building C object src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_wgen.c.o
+[  6%] Building C object src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_w16.c.o
+[ 62%] Building CXX object CMakeFiles/rocksdb.dir/util/concurrent_arena.cc.o
+[  6%] Building C object src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf.c.o
+[  6%] Building C object src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_w32.c.o
+[ 62%] Building CXX object CMakeFiles/rocksdb.dir/util/concurrent_task_limiter_impl.cc.o
+[ 62%] Building CXX object CMakeFiles/rocksdb.dir/util/crc32c.cc.o
+[  6%] Building C object src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_w64.c.o
+[  6%] Building C object src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_w128.c.o
+[  6%] Building C object src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_general.c.o
+[  6%] Building C object src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_w4.c.o
+[  6%] Building C object src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_rand.c.o
+[  6%] Building C object src/erasure-code/jerasure/CMakeFiles/gf-complete_objs.dir/gf-complete/src/gf_w8.c.o
+[ 62%] Building CXX object CMakeFiles/rocksdb.dir/util/delete_scheduler.cc.o
+/app/ceph-14.2.11/src/erasure-code/jerasure/gf-complete/include/gf_int.h: In function 'gf_w8_init':
+/app/ceph-14.2.11/src/erasure-code/jerasure/gf-complete/src/gf_w8.c:1203:3: warning: 'scase' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   switch (scase) {
+   ^~~~~~
+/app/ceph-14.2.11/src/erasure-code/jerasure/gf-complete/src/gf_w8.c:1140:22: note: 'scase' was declared here
+   int a, b, c, prod, scase;
+                      ^~~~~
+[  6%] Built target gf-complete_objs
+Scanning dependencies of target jerasure_objs
+[  6%] Building C object src/erasure-code/jerasure/CMakeFiles/jerasure_objs.dir/jerasure/src/cauchy.c.o
+[  6%] Building C object src/erasure-code/jerasure/CMakeFiles/jerasure_objs.dir/jerasure/src/galois.c.o
+[  6%] Building C object src/erasure-code/jerasure/CMakeFiles/jerasure_objs.dir/jerasure/src/jerasure.c.o
+[  6%] Building C object src/erasure-code/jerasure/CMakeFiles/jerasure_objs.dir/jerasure/src/liberation.c.o
+[  6%] Building C object src/erasure-code/jerasure/CMakeFiles/jerasure_objs.dir/jerasure/src/reed_sol.c.o
+[  6%] Building CXX object src/erasure-code/jerasure/CMakeFiles/jerasure_objs.dir/jerasure_init.cc.o
+[ 62%] Building CXX object CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.o
+[ 62%] Building CXX object CMakeFiles/rocksdb.dir/util/event_logger.cc.o
+[ 65%] Building CXX object CMakeFiles/rocksdb.dir/util/file_reader_writer.cc.o
+[ 65%] Building CXX object CMakeFiles/rocksdb.dir/util/file_util.cc.o
+[  6%] Built target jerasure_objs
+Scanning dependencies of target shec_utils
+[  6%] Building CXX object src/erasure-code/shec/CMakeFiles/shec_utils.dir/__/ErasureCode.cc.o
+[ 65%] Building CXX object CMakeFiles/rocksdb.dir/util/filename.cc.o
+[ 65%] Building CXX object CMakeFiles/rocksdb.dir/util/filter_policy.cc.o
+[ 65%] Building CXX object CMakeFiles/rocksdb.dir/util/hash.cc.o
+[ 65%] Building CXX object CMakeFiles/rocksdb.dir/util/jemalloc_nodump_allocator.cc.o
+[ 65%] Building CXX object CMakeFiles/rocksdb.dir/util/log_buffer.cc.o
+[ 65%] Building CXX object CMakeFiles/rocksdb.dir/util/murmurhash.cc.o
+[ 68%] Building CXX object CMakeFiles/rocksdb.dir/util/random.cc.o
+[ 68%] Building CXX object CMakeFiles/rocksdb.dir/util/rate_limiter.cc.o
+[ 68%] Building CXX object CMakeFiles/rocksdb.dir/util/slice.cc.o
+[ 68%] Building CXX object CMakeFiles/rocksdb.dir/util/sst_file_manager_impl.cc.o
+[ 68%] Building CXX object CMakeFiles/rocksdb.dir/util/status.cc.o
+[  6%] Building CXX object src/erasure-code/shec/CMakeFiles/shec_utils.dir/ErasureCodePluginShec.cc.o
+[ 68%] Building CXX object CMakeFiles/rocksdb.dir/util/string_util.cc.o
+[ 68%] Building CXX object CMakeFiles/rocksdb.dir/util/sync_point.cc.o
+[ 72%] Building CXX object CMakeFiles/rocksdb.dir/util/sync_point_impl.cc.o
+[ 72%] Building CXX object CMakeFiles/rocksdb.dir/util/testutil.cc.o
+[ 72%] Building CXX object CMakeFiles/rocksdb.dir/util/thread_local.cc.o
+[ 72%] Building CXX object CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.o
+[  6%] Building CXX object src/erasure-code/shec/CMakeFiles/shec_utils.dir/ErasureCodeShec.cc.o
+[ 72%] Building CXX object CMakeFiles/rocksdb.dir/util/trace_replay.cc.o
+[ 72%] Building CXX object CMakeFiles/rocksdb.dir/util/transaction_test_util.cc.o
+[  6%] Building CXX object src/erasure-code/shec/CMakeFiles/shec_utils.dir/ErasureCodeShecTableCache.cc.o
+[ 72%] Building CXX object CMakeFiles/rocksdb.dir/util/xxhash.cc.o
+[ 72%] Building CXX object CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.o
+[ 75%] Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_compaction_filter.cc.o
+[  6%] Building C object src/erasure-code/shec/CMakeFiles/shec_utils.dir/determinant.c.o
+[  6%] Built target shec_utils
+Scanning dependencies of target dmclock
+[  7%] Building CXX object src/dmclock/src/CMakeFiles/dmclock.dir/dmclock_util.cc.o
+[  7%] Building CXX object src/dmclock/src/CMakeFiles/dmclock.dir/__/support/src/run_every.cc.o
+[  7%] Linking CXX static library ../../../lib/libdmclock.a
+[  7%] Built target dmclock
+Scanning dependencies of target cpu_profiler
+[  7%] Building CXX object src/perfglue/CMakeFiles/cpu_profiler.dir/disabled_stubs.cc.o
+[ 75%] Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.o
+[  8%] Linking CXX static library ../../lib/libcpu_profiler.a
+[  8%] Built target cpu_profiler
+Scanning dependencies of target pg-tp
+[  8%] generating /app/ceph-14.2.11/build/include/tracing/pg.h
+[  8%] Built target pg-tp
+Scanning dependencies of target osd-tp
+[  8%] generating /app/ceph-14.2.11/build/include/tracing/osd.h
+[  8%] Built target osd-tp
+Scanning dependencies of target cls_cas
+[  8%] Building CXX object src/cls/CMakeFiles/cls_cas.dir/cas/cls_cas.cc.o
+[ 75%] Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.o
+[  9%] Linking CXX shared library ../../lib/libcls_cas.so
+[  9%] Built target cls_cas
+Scanning dependencies of target cls_lock
+[  9%] Building CXX object src/cls/CMakeFiles/cls_lock.dir/lock/cls_lock.cc.o
+[ 75%] Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl_filesnapshot.cc.o
+[ 75%] Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.o
+[  9%] Linking CXX shared library ../../lib/libcls_lock.so
+[  9%] Built target cls_lock
+Scanning dependencies of target cls_rbd
+[ 10%] Building CXX object src/cls/CMakeFiles/cls_rbd.dir/rbd/cls_rbd.cc.o
+[ 75%] Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.o
+[ 75%] Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_reader.cc.o
+[ 75%] Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_writer.cc.o
+[ 79%] Building CXX object CMakeFiles/rocksdb.dir/utilities/blob_db/blob_log_format.cc.o
+[ 79%] Building CXX object CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.o
+[ 79%] Building CXX object CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.o
+[ 79%] Building CXX object CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.o
+[ 79%] Building CXX object CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.o
+[ 79%] Building CXX object CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc.o
+[ 79%] Building CXX object CMakeFiles/rocksdb.dir/utilities/debug.cc.o
+[ 82%] Building CXX object CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.o
+[ 82%] Building CXX object CMakeFiles/rocksdb.dir/utilities/env_timed.cc.o
+[ 10%] Building CXX object src/cls/CMakeFiles/cls_rbd.dir/rbd/cls_rbd_types.cc.o
+[ 82%] Building CXX object CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.o
+[ 82%] Building CXX object CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.o
+[ 82%] Building CXX object CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.o
+[ 82%] Building CXX object CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.o
+[ 82%] Building CXX object CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.o
+[ 82%] Building CXX object CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.o
+[ 86%] Building CXX object CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.o
+[ 86%] Building CXX object CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.o
+[ 10%] Linking CXX shared library ../../lib/libcls_rbd.so
+[ 10%] Built target cls_rbd
+[ 86%] Building CXX object CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration.cc.o
+Scanning dependencies of target cls_log
+[ 10%] Building CXX object src/cls/CMakeFiles/cls_log.dir/log/cls_log.cc.o
+[ 86%] Building CXX object CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.o
+[ 10%] Linking CXX shared library ../../lib/libcls_log.so
+[ 10%] Built target cls_log
+Scanning dependencies of target cls_numops
+[ 10%] Building CXX object src/cls/CMakeFiles/cls_numops.dir/numops/cls_numops.cc.o
+[ 86%] Building CXX object CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.o
+[ 10%] Linking CXX shared library ../../lib/libcls_numops.so
+[ 10%] Built target cls_numops
+[ 86%] Building CXX object CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.o
+Scanning dependencies of target cls_hello
+[ 10%] Building CXX object src/cls/CMakeFiles/cls_hello.dir/hello/cls_hello.cc.o
+[ 86%] Building CXX object CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.o
+[ 89%] Building CXX object CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.o
+[ 10%] Linking CXX shared library ../../lib/libcls_hello.so
+[ 10%] Built target cls_hello
+Scanning dependencies of target cls_user
+[ 10%] Building CXX object src/cls/CMakeFiles/cls_user.dir/user/cls_user.cc.o
+[ 89%] Building CXX object CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.o
+[ 89%] Building CXX object CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.o
+[ 89%] Building CXX object CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion_collector.cc.o
+[ 89%] Building CXX object CMakeFiles/rocksdb.dir/utilities/trace/file_trace_reader_writer.cc.o
+[ 10%] Linking CXX shared library ../../lib/libcls_user.so
+[ 89%] Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.o
+[ 10%] Built target cls_user
+Scanning dependencies of target cls_otp
+[ 10%] Building CXX object src/cls/CMakeFiles/cls_otp.dir/otp/cls_otp.cc.o
+[ 89%] Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.o
+[ 10%] Linking CXX shared library ../../lib/libcls_otp.so
+[ 10%] Built target cls_otp
+Scanning dependencies of target cls_cephfs
+[ 10%] Building CXX object src/cls/CMakeFiles/cls_cephfs.dir/cephfs/cls_cephfs.cc.o
+[ 89%] Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.o
+[ 10%] Linking CXX shared library ../../lib/libcls_cephfs.so
+[ 10%] Built target cls_cephfs
+Scanning dependencies of target cls_version
+[ 10%] Building CXX object src/cls/CMakeFiles/cls_version.dir/version/cls_version.cc.o
+[ 93%] Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.o
+[ 10%] Linking CXX shared library ../../lib/libcls_version.so
+[ 10%] Built target cls_version
+Scanning dependencies of target cls_timeindex
+[ 10%] Building CXX object src/cls/CMakeFiles/cls_timeindex.dir/timeindex/cls_timeindex.cc.o
+[ 10%] Linking CXX shared library ../../lib/libcls_timeindex.so
+[ 10%] Built target cls_timeindex
+Scanning dependencies of target cls_journal
+[ 10%] Building CXX object src/cls/CMakeFiles/cls_journal.dir/journal/cls_journal.cc.o
+[ 93%] Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.o
+[ 93%] Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.o
+[ 10%] Building CXX object src/cls/CMakeFiles/cls_journal.dir/journal/cls_journal_types.cc.o
+[ 93%] Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.o
+[ 10%] Linking CXX shared library ../../lib/libcls_journal.so
+[ 10%] Built target cls_journal
+Scanning dependencies of target parse_secret_objs
+[ 10%] Building C object src/common/CMakeFiles/parse_secret_objs.dir/secret.c.o
+[ 10%] Built target parse_secret_objs
+[ 93%] Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/transaction_lock_mgr.cc.o
+Scanning dependencies of target rados_snap_set_diff_obj
+[ 10%] Building CXX object src/CMakeFiles/rados_snap_set_diff_obj.dir/librados/snap_set_diff.cc.o
+[ 93%] Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.o
+[ 10%] Built target rados_snap_set_diff_obj
+Scanning dependencies of target cls_lock_client
+[ 10%] Building CXX object src/cls/CMakeFiles/cls_lock_client.dir/lock/cls_lock_client.cc.o
+[ 93%] Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.o
+[ 10%] Building CXX object src/cls/CMakeFiles/cls_lock_client.dir/lock/cls_lock_types.cc.o
+[ 96%] Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.o
+[ 11%] Building CXX object src/cls/CMakeFiles/cls_lock_client.dir/lock/cls_lock_ops.cc.o
+[ 11%] Linking CXX static library ../../lib/libcls_lock_client.a
+[ 11%] Built target cls_lock_client
+Scanning dependencies of target librados-tp
+[ 11%] generating /app/ceph-14.2.11/build/include/tracing/librados.h
+[ 11%] Built target librados-tp
+Scanning dependencies of target liblua
+[ 11%] Building C object src/lua/CMakeFiles/liblua.dir/src/lapi.c.o
+[ 11%] Building C object src/lua/CMakeFiles/liblua.dir/src/lcode.c.o
+[ 96%] Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/write_unprepared_txn.cc.o
+[ 11%] Building C object src/lua/CMakeFiles/liblua.dir/src/lctype.c.o
+[ 11%] Building C object src/lua/CMakeFiles/liblua.dir/src/ldebug.c.o
+[ 11%] Building C object src/lua/CMakeFiles/liblua.dir/src/ldo.c.o
+[ 11%] Building C object src/lua/CMakeFiles/liblua.dir/src/ldump.c.o
+[ 11%] Building C object src/lua/CMakeFiles/liblua.dir/src/lfunc.c.o
+[ 11%] Building C object src/lua/CMakeFiles/liblua.dir/src/lgc.c.o
+[ 11%] Building C object src/lua/CMakeFiles/liblua.dir/src/llex.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/lmem.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/lobject.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/lopcodes.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/lparser.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/lstate.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/lstring.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/ltable.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/ltm.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/lundump.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/lvm.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/lzio.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/lauxlib.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/lbaselib.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/lbitlib.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/lcorolib.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/ldblib.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/liolib.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/lmathlib.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/loslib.c.o
+[ 96%] Building CXX object CMakeFiles/rocksdb.dir/utilities/transactions/write_unprepared_txn_db.cc.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/lstrlib.c.o
+[ 12%] Building C object src/lua/CMakeFiles/liblua.dir/src/ltablib.c.o
+[ 13%] Building C object src/lua/CMakeFiles/liblua.dir/src/linit.c.o
+[ 13%] Building C object src/lua/CMakeFiles/liblua.dir/src/lutf8lib.c.o
+[ 13%] Building C object src/lua/CMakeFiles/liblua.dir/src/loadlib_rel.c.o
+[ 13%] Linking C static library ../../lib/liblua.a
+[ 13%] Built target liblua
+Scanning dependencies of target civetweb_common_objs
+[ 13%] Building C object src/CMakeFiles/civetweb_common_objs.dir/civetweb/src/civetweb.c.o
+/app/ceph-14.2.11/src/civetweb/src/civetweb.c: In function 'mg_get_system_info_impl':
+/app/ceph-14.2.11/src/civetweb/src/civetweb.c:17261:32: warning: '-Werror' is not an option that controls warnings [-Wpragmas]
+ #pragma GCC diagnostic ignored "-Werror"
+                                ^~~~~~~~~
+[ 13%] Built target civetweb_common_objs
+[ 13%] generating /app/ceph-14.2.11/build/include/tracing/rgw_rados.h
+Scanning dependencies of target rgw_rados_tp
+[ 13%] Building C object src/tracing/CMakeFiles/rgw_rados_tp.dir/rgw_rados.c.o
+[ 13%] Linking C shared library ../../lib/librgw_rados_tp.so
+[ 13%] Built target rgw_rados_tp
+[ 13%] generating /app/ceph-14.2.11/build/include/tracing/librbd.h
+Scanning dependencies of target rbd_tp
+[ 13%] Building C object src/tracing/CMakeFiles/rbd_tp.dir/librbd.c.o
+[ 96%] Building CXX object CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.o
+[ 13%] Linking C shared library ../../lib/librbd_tp.so
+[ 13%] Built target rbd_tp
+Scanning dependencies of target osd_tp
+[ 13%] Building C object src/tracing/CMakeFiles/osd_tp.dir/oprequest.c.o
+[ 13%] Building C object src/tracing/CMakeFiles/osd_tp.dir/osd.c.o
+[ 96%] Building CXX object CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.cc.o
+[ 13%] Building C object src/tracing/CMakeFiles/osd_tp.dir/pg.c.o
+[ 13%] Linking C shared library ../../lib/libosd_tp.so
+[ 13%] Built target osd_tp
+[ 13%] generating /app/ceph-14.2.11/build/include/tracing/rgw_op.h
+Scanning dependencies of target rgw_op_tp
+[ 13%] Building C object src/tracing/CMakeFiles/rgw_op_tp.dir/rgw_op.c.o
+[ 13%] Linking C shared library ../../lib/librgw_op_tp.so
+[ 13%] Built target rgw_op_tp
+Scanning dependencies of target rados_tp
+[ 13%] Building C object src/tracing/CMakeFiles/rados_tp.dir/librados.c.o
+[ 96%] Building CXX object CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.o
+[ 96%] Building CXX object CMakeFiles/rocksdb.dir/port/port_posix.cc.o
+[ 96%] Building CXX object CMakeFiles/rocksdb.dir/env/env_posix.cc.o
+[ 13%] Linking C shared library ../../lib/librados_tp.so
+[ 13%] Built target rados_tp
+Scanning dependencies of target os_tp
+[ 14%] Building C object src/tracing/CMakeFiles/os_tp.dir/objectstore.c.o
+[100%] Building CXX object CMakeFiles/rocksdb.dir/env/io_posix.cc.o
+[ 14%] Linking C shared library ../../lib/libos_tp.so
+[ 14%] Built target os_tp
+Scanning dependencies of target cls_cas_client
+[ 14%] Building CXX object src/cls/CMakeFiles/cls_cas_client.dir/cas/cls_cas_client.cc.o
+[100%] Linking CXX static library librocksdb.a
+[100%] Built target rocksdb
+[ 14%] Performing install step for 'rocksdb_ext'
+[ 14%] Completed 'rocksdb_ext'
+[ 14%] Built target rocksdb_ext
+Scanning dependencies of target cls_cephfs_client
+[ 14%] Building CXX object src/cls/CMakeFiles/cls_cephfs_client.dir/cephfs/cls_cephfs_client.cc.o
+[ 14%] Linking CXX static library ../../lib/libcls_cas_client.a
+[ 14%] Built target cls_cas_client
+Scanning dependencies of target cls_rgw_client
+[ 14%] Building CXX object src/cls/CMakeFiles/cls_rgw_client.dir/rgw/cls_rgw_client.cc.o
+[ 14%] Building CXX object src/cls/CMakeFiles/cls_rgw_client.dir/rgw/cls_rgw_types.cc.o
+[ 14%] Linking CXX static library ../../lib/libcls_cephfs_client.a
+[ 14%] Built target cls_cephfs_client
+Scanning dependencies of target cls_sdk
+[ 14%] Building CXX object src/cls/CMakeFiles/cls_sdk.dir/sdk/cls_sdk.cc.o
+[ 14%] Linking CXX shared library ../../lib/libcls_sdk.so
+[ 14%] Built target cls_sdk
+Scanning dependencies of target cls_rbd_client
+[ 14%] Building CXX object src/cls/CMakeFiles/cls_rbd_client.dir/rbd/cls_rbd_client.cc.o
+[ 14%] Building CXX object src/cls/CMakeFiles/cls_rgw_client.dir/rgw/cls_rgw_ops.cc.o
+[ 14%] Building CXX object src/cls/CMakeFiles/cls_rbd_client.dir/rbd/cls_rbd_types.cc.o
+[ 15%] Linking CXX static library ../../lib/libcls_rgw_client.a
+[ 15%] Built target cls_rgw_client
+Scanning dependencies of target cls_log_client
+[ 15%] Building CXX object src/cls/CMakeFiles/cls_log_client.dir/log/cls_log_client.cc.o
+[ 15%] Linking CXX static library ../../lib/libcls_rbd_client.a
+[ 15%] Built target cls_rbd_client
+Scanning dependencies of target cls_numops_client
+[ 15%] Building CXX object src/cls/CMakeFiles/cls_numops_client.dir/numops/cls_numops_client.cc.o
+[ 15%] Linking CXX static library ../../lib/libcls_numops_client.a
+[ 15%] Built target cls_numops_client
+Scanning dependencies of target cls_otp_client
+[ 15%] Building CXX object src/cls/CMakeFiles/cls_otp_client.dir/otp/cls_otp_client.cc.o
+[ 15%] Linking CXX static library ../../lib/libcls_log_client.a
+[ 15%] Built target cls_log_client
+Scanning dependencies of target cls_refcount_client
+[ 15%] Building CXX object src/cls/CMakeFiles/cls_refcount_client.dir/refcount/cls_refcount_client.cc.o
+[ 15%] Building CXX object src/cls/CMakeFiles/cls_refcount_client.dir/refcount/cls_refcount_ops.cc.o
+[ 15%] Linking CXX static library ../../lib/libcls_refcount_client.a
+[ 15%] Built target cls_refcount_client
+Scanning dependencies of target cls_timeindex_client
+[ 15%] Building CXX object src/cls/CMakeFiles/cls_timeindex_client.dir/timeindex/cls_timeindex_client.cc.o
+[ 15%] Linking CXX static library ../../lib/libcls_timeindex_client.a
+[ 15%] Building CXX object src/cls/CMakeFiles/cls_otp_client.dir/otp/cls_otp_types.cc.o
+[ 15%] Built target cls_timeindex_client
+Scanning dependencies of target cls_lua_client
+[ 15%] Building CXX object src/cls/CMakeFiles/cls_lua_client.dir/lua/cls_lua_client.cc.o
+[ 15%] Linking CXX static library ../../lib/libcls_lua_client.a
+[ 15%] Built target cls_lua_client
+Scanning dependencies of target cls_version_client
+[ 15%] Building CXX object src/cls/CMakeFiles/cls_version_client.dir/version/cls_version_client.cc.o
+[ 15%] Linking CXX static library ../../lib/libcls_otp_client.a
+[ 15%] Built target cls_otp_client
+Scanning dependencies of target cls_user_client
+[ 15%] Building CXX object src/cls/CMakeFiles/cls_user_client.dir/user/cls_user_client.cc.o
+[ 15%] Building CXX object src/cls/CMakeFiles/cls_version_client.dir/version/cls_version_types.cc.o
+[ 15%] Linking CXX static library ../../lib/libcls_version_client.a
+[ 15%] Built target cls_version_client
+Scanning dependencies of target cls_journal_client
+[ 15%] Building CXX object src/cls/CMakeFiles/cls_journal_client.dir/journal/cls_journal_client.cc.o
+[ 15%] Building CXX object src/cls/CMakeFiles/cls_user_client.dir/user/cls_user_types.cc.o
+[ 15%] Building CXX object src/cls/CMakeFiles/cls_user_client.dir/user/cls_user_ops.cc.o
+[ 15%] Building CXX object src/cls/CMakeFiles/cls_journal_client.dir/journal/cls_journal_types.cc.o
+[ 15%] Linking CXX static library ../../lib/libcls_user_client.a
+[ 15%] Built target cls_user_client
+Scanning dependencies of target civetweb_h
+[ 15%] keep civetweb.h up-to-date
+[ 15%] Built target civetweb_h
+Scanning dependencies of target rgw_rados-tp
+[ 15%] Built target rgw_rados-tp
+Scanning dependencies of target rgw_op-tp
+[ 15%] Built target rgw_op-tp
+Scanning dependencies of target librbd-tp
+[ 15%] Built target librbd-tp
+Scanning dependencies of target rbd_types
+[ 15%] Building CXX object src/librbd/CMakeFiles/rbd_types.dir/journal/Types.cc.o
+[ 15%] Linking CXX static library ../../lib/libcls_journal_client.a
+[ 15%] Built target cls_journal_client
+Scanning dependencies of target mgr-dashboard-nodeenv
+[ 15%] dashboard nodeenv is being installed
+created virtual environment CPython2.7.5.final.0-64 in 1111ms
+  creator CPython2Posix(dest=/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env, clear=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/root/.local/share/virtualenv)
+    added seed packages: pip==20.2.2, setuptools==44.1.1, wheel==0.35.1
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Collecting pip>=6.1
+  Downloading pip-20.2.3-py2.py3-none-any.whl (1.5 MB)
+[ 15%] Building CXX object src/librbd/CMakeFiles/rbd_types.dir/mirroring_watcher/Types.cc.o
+[ 15%] Building CXX object src/librbd/CMakeFiles/rbd_types.dir/trash_watcher/Types.cc.o
+[ 15%] Building CXX object src/librbd/CMakeFiles/rbd_types.dir/watcher/Types.cc.o
+[ 15%] Building CXX object src/librbd/CMakeFiles/rbd_types.dir/WatchNotifyTypes.cc.o
+[ 15%] Linking CXX static library ../../lib/librbd_types.a
+[ 15%] Built target rbd_types
+Scanning dependencies of target ceph_volume-clone
+[ 15%] Generating setup.py
+[ 15%] Generating ceph_volume
+[ 15%] Built target ceph_volume-clone
+Scanning dependencies of target gmock_main
+[ 15%] Building CXX object src/googletest/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o
+[ 15%] Building CXX object src/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o
+[ 15%] Building CXX object src/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+[ 15%] Linking CXX static library ../../../lib/libgmock_main.a
+[ 15%] Built target gmock_main
+Scanning dependencies of target gmock
+[ 15%] Building CXX object src/googletest/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o
+[ 15%] Building CXX object src/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[ 15%] Linking CXX static library ../../../lib/libgmock.a
+[ 15%] Built target gmock
+Scanning dependencies of target gtest
+[ 15%] Building CXX object src/googletest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 15%] Linking CXX static library ../../../../lib/libgtest.a
+[ 15%] Built target gtest
+Scanning dependencies of target ceph-diff-sorted
+[ 15%] Building CXX object src/tools/CMakeFiles/ceph-diff-sorted.dir/ceph-diff-sorted.cc.o
+[ 15%] Linking CXX executable ../../bin/ceph-diff-sorted
+[ 15%] Built target ceph-diff-sorted
+Scanning dependencies of target rbd_mirror_internal
+[ 15%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/ClusterWatcher.cc.o
+[ 15%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/ImageDeleter.cc.o
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.2.2
+    Uninstalling pip-20.2.2:
+      Successfully uninstalled pip-20.2.2
+Successfully installed pip-20.2.3
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Looking in links: file:///app/ceph-14.2.11/build/src/pybind/mgr/dashboard/wheelhouse
+WARNING: Url 'file:///app/ceph-14.2.11/build/src/pybind/mgr/dashboard/wheelhouse' is ignored: it is neither a file nor a directory.
+[ 15%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/ImageMap.cc.o
+Collecting tox>=2.9.1
+  Downloading tox-3.20.0-py2.py3-none-any.whl (83 kB)
+WARNING: Url 'file:///app/ceph-14.2.11/build/src/pybind/mgr/dashboard/wheelhouse' is ignored: it is neither a file nor a directory.
+Collecting filelock>=3.0.0
+  Downloading filelock-3.0.12.tar.gz (8.5 kB)
+WARNING: Url 'file:///app/ceph-14.2.11/build/src/pybind/mgr/dashboard/wheelhouse' is ignored: it is neither a file nor a directory.
+Collecting toml>=0.9.4
+  Downloading toml-0.10.1-py2.py3-none-any.whl (19 kB)
+[ 15%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/ImageReplayer.cc.o
+WARNING: Url 'file:///app/ceph-14.2.11/build/src/pybind/mgr/dashboard/wheelhouse' is ignored: it is neither a file nor a directory.
+Collecting pluggy>=0.12.0
+  Downloading pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+WARNING: Url 'file:///app/ceph-14.2.11/build/src/pybind/mgr/dashboard/wheelhouse' is ignored: it is neither a file nor a directory.
+Collecting virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0
+  Downloading virtualenv-20.0.31-py2.py3-none-any.whl (4.9 MB)
+[ 15%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/ImageSync.cc.o
+[ 15%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/ImageSyncThrottler.cc.o
+[ 15%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/InstanceReplayer.cc.o
+[ 15%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/InstanceWatcher.cc.o
+[ 15%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/Instances.cc.o
+[ 15%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/LeaderWatcher.cc.o
+[ 15%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/Mirror.cc.o
+[ 15%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/MirrorStatusWatcher.cc.o
+[ 15%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/PoolReplayer.cc.o
+[ 15%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/PoolWatcher.cc.o
+[ 15%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/ServiceDaemon.cc.o
+[ 15%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/Threads.cc.o
+[ 15%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/Types.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_deleter/SnapshotPurgeRequest.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_deleter/TrashMoveRequest.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_deleter/TrashRemoveRequest.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_deleter/TrashWatcher.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_map/LoadRequest.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_map/Policy.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_map/SimplePolicy.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_map/StateTransition.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_map/UpdateRequest.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_replayer/BootstrapRequest.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_replayer/CloseImageRequest.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_replayer/CreateImageRequest.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_replayer/EventPreprocessor.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_replayer/GetMirrorImageIdRequest.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_replayer/IsPrimaryRequest.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_replayer/OpenImageRequest.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_replayer/OpenLocalImageRequest.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_replayer/PrepareLocalImageRequest.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_replayer/PrepareRemoteImageRequest.cc.o
+[ 16%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_replayer/ReplayStatusFormatter.cc.o
+[ 17%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_replayer/Utils.cc.o
+[ 17%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_sync/SyncPointCreateRequest.cc.o
+[ 17%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/image_sync/SyncPointPruneRequest.cc.o
+[ 17%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/pool_watcher/RefreshImagesRequest.cc.o
+[ 17%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_internal.dir/service_daemon/Types.cc.o
+[ 17%] Linking CXX static library ../../../lib/librbd_mirror_internal.a
+[ 17%] Built target rbd_mirror_internal
+Scanning dependencies of target rbd_mirror_types
+[ 17%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_types.dir/image_map/Types.cc.o
+[ 17%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_types.dir/instance_watcher/Types.cc.o
+[ 17%] Building CXX object src/tools/rbd_mirror/CMakeFiles/rbd_mirror_types.dir/leader_watcher/Types.cc.o
+[ 17%] Linking CXX static library ../../../lib/librbd_mirror_types.a
+[ 17%] Built target rbd_mirror_types
+Scanning dependencies of target rbd_api
+[ 17%] Building CXX object src/librbd/CMakeFiles/rbd_api.dir/librbd.cc.o
+[ 17%] Linking CXX static library ../../lib/librbd_api.a
+[ 17%] Built target rbd_api
+Scanning dependencies of target rbd_replay_types
+[ 17%] Building CXX object src/rbd_replay/CMakeFiles/rbd_replay_types.dir/ActionTypes.cc.o
+[ 17%] Linking CXX static library ../../lib/librbd_replay_types.a
+[ 17%] Built target rbd_replay_types
+Scanning dependencies of target unittest_any
+[ 17%] Building CXX object src/test/CMakeFiles/unittest_any.dir/test_any.cc.o
+[ 17%] Linking CXX executable ../../bin/unittest_any
+[ 17%] Built target unittest_any
+Scanning dependencies of target unit-main
+[ 17%] Building CXX object src/test/CMakeFiles/unit-main.dir/unit.cc.o
+WARNING: Url 'file:///app/ceph-14.2.11/build/src/pybind/mgr/dashboard/wheelhouse' is ignored: it is neither a file nor a directory.
+[ 17%] Built target unit-main
+Scanning dependencies of target radostest_shared
+[ 17%] Building CXX object src/test/librados/CMakeFiles/radostest_shared.dir/test_shared.cc.o
+[ 17%] Built target radostest_shared
+Scanning dependencies of target kafka_stub
+[ 17%] Building CXX object src/test/rgw/CMakeFiles/kafka_stub.dir/kafka_stub.cc.o
+[ 17%] Linking CXX static library ../../../lib/libkafka_stub.a
+[ 17%] Built target kafka_stub
+Scanning dependencies of target amqp_mock
+[ 17%] Building CXX object src/test/rgw/CMakeFiles/amqp_mock.dir/amqp_mock.cc.o
+[ 17%] Building C object src/test/rgw/CMakeFiles/amqp_mock.dir/amqp_url.c.o
+[ 17%] Linking CXX static library ../../../lib/libamqp_mock.a
+[ 17%] Built target amqp_mock
+Scanning dependencies of target test_build_librgw_admin_user
+[ 17%] Building CXX object src/test/CMakeFiles/test_build_librgw_admin_user.dir/buildtest_skeleton.cc.o
+[ 17%] Linking CXX executable ../../bin/test_build_librgw_admin_user
+[ 17%] Built target test_build_librgw_admin_user
+Scanning dependencies of target unittest_random
+[ 17%] Building CXX object src/test/common/CMakeFiles/unittest_random.dir/test_random.cc.o
+[ 17%] Linking CXX executable ../../../bin/unittest_random
+[ 17%] Built target unittest_random
+Scanning dependencies of target unittest_async_completion
+[ 18%] Building CXX object src/test/common/CMakeFiles/unittest_async_completion.dir/test_async_completion.cc.o
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='pypi.org', port=443): Read timed out. (read timeout=15)",)': /simple/py/
+Collecting py>=1.4.17
+  Downloading py-1.9.0-py2.py3-none-any.whl (99 kB)
+[ 18%] Linking CXX executable ../../../bin/unittest_async_completion
+[ 18%] Built target unittest_async_completion
+Scanning dependencies of target unittest_static_ptr
+[ 18%] Building CXX object src/test/common/CMakeFiles/unittest_static_ptr.dir/test_static_ptr.cc.o
+[ 18%] Linking CXX executable ../../../bin/unittest_static_ptr
+[ 18%] Built target unittest_static_ptr
+Scanning dependencies of target ceph_example
+[ 18%] Building CXX object src/test/compressor/CMakeFiles/ceph_example.dir/compressor_plugin_example.cc.o
+[ 18%] Linking CXX shared library ../../../lib/libceph_example.so
+[ 18%] Built target ceph_example
+Scanning dependencies of target ec_hangs
+[ 18%] Building CXX object src/test/erasure-code/CMakeFiles/ec_hangs.dir/ErasureCodePluginHangs.cc.o
+[ 18%] Linking CXX shared library ../../../lib/libec_hangs.so
+[ 18%] Built target ec_hangs
+Scanning dependencies of target ec_missing_version
+[ 18%] Building CXX object src/test/erasure-code/CMakeFiles/ec_missing_version.dir/ErasureCodePluginMissingVersion.cc.o
+[ 18%] Linking CXX shared library ../../../lib/libec_missing_version.so
+[ 18%] Built target ec_missing_version
+Scanning dependencies of target ec_fail_to_initialize
+[ 18%] Building CXX object src/test/erasure-code/CMakeFiles/ec_fail_to_initialize.dir/ErasureCodePluginFailToInitialize.cc.o
+[ 18%] Linking CXX shared library ../../../lib/libec_fail_to_initialize.so
+[ 18%] Built target ec_fail_to_initialize
+Scanning dependencies of target ec_fail_to_register
+[ 18%] Building CXX object src/test/erasure-code/CMakeFiles/ec_fail_to_register.dir/ErasureCodePluginFailToRegister.cc.o
+[ 18%] Linking CXX shared library ../../../lib/libec_fail_to_register.so
+[ 18%] Built target ec_fail_to_register
+Scanning dependencies of target ec_example
+[ 18%] Building CXX object src/test/erasure-code/CMakeFiles/ec_example.dir/ErasureCodePluginExample.cc.o
+[ 18%] Linking CXX shared library ../../../lib/libec_example.so
+[ 18%] Built target ec_example
+Scanning dependencies of target ec_missing_entry_point
+ERROR: Exception:
+Traceback (most recent call last):
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/pip/_internal/cli/base_command.py", line 228, in _main
+    status = self.run(options, args)
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/pip/_internal/cli/req_command.py", line 182, in wrapper
+    return func(self, options, args)
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/pip/_internal/commands/install.py", line 324, in run
+    reqs, check_supported_wheels=not options.target_dir
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/pip/_internal/resolution/legacy/resolver.py", line 183, in resolve
+    discovered_reqs.extend(self._resolve_one(requirement_set, req))
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/pip/_internal/resolution/legacy/resolver.py", line 388, in _resolve_one
+    abstract_dist = self._get_abstract_dist_for(req_to_install)
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/pip/_internal/resolution/legacy/resolver.py", line 340, in _get_abstract_dist_for
+    abstract_dist = self.preparer.prepare_linked_requirement(req)
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/pip/_internal/operations/prepare.py", line 469, in prepare_linked_requirement
+    hashes=self._get_linked_req_hashes(req)
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/pip/_internal/operations/prepare.py", line 259, in unpack_url
+    hashes=hashes,
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/pip/_internal/operations/prepare.py", line 130, in get_http_url
+    link, downloader, temp_dir.path, hashes
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/pip/_internal/operations/prepare.py", line 282, in _download_http_url
+    for chunk in download.chunks:
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/pip/_internal/cli/progress_bars.py", line 168, in iter
+    for x in it:
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/pip/_internal/network/utils.py", line 88, in response_chunks
+    decode_content=False,
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/pip/_vendor/urllib3/response.py", line 576, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/pip/_vendor/urllib3/response.py", line 541, in read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+  File "/usr/lib64/python2.7/contextlib.py", line 35, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/pip/_vendor/urllib3/response.py", line 451, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.")
+ReadTimeoutError: HTTPSConnectionPool(host='files.pythonhosted.org', port=443): Read timed out.
+[ 18%] Building CXX object src/test/erasure-code/CMakeFiles/ec_missing_entry_point.dir/ErasureCodePluginMissingEntryPoint.cc.o
+[ 18%] Linking CXX shared library ../../../lib/libec_missing_entry_point.so
+[ 18%] Built target ec_missing_entry_point
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Scanning dependencies of target rados_test_stub
+[ 18%] Building CXX object src/test/librados_test_stub/CMakeFiles/rados_test_stub.dir/LibradosTestStub.cc.o
+Collecting nodeenv
+  Downloading nodeenv-1.5.0-py2.py3-none-any.whl (21 kB)
+Installing collected packages: nodeenv
+Successfully installed nodeenv-1.5.0
+ * Install prebuilt node (10.13.0) .[ 18%] Building CXX object src/test/librados_test_stub/CMakeFiles/rados_test_stub.dir/TestClassHandler.cc.o
+[ 18%] Building CXX object src/test/librados_test_stub/CMakeFiles/rados_test_stub.dir/TestIoCtxImpl.cc.o
+[ 18%] Building CXX object src/test/librados_test_stub/CMakeFiles/rados_test_stub.dir/TestMemCluster.cc.o
+[ 18%] Building CXX object src/test/librados_test_stub/CMakeFiles/rados_test_stub.dir/TestMemIoCtxImpl.cc.o
+[ 19%] Building CXX object src/test/librados_test_stub/CMakeFiles/rados_test_stub.dir/TestMemRadosClient.cc.o
+[ 19%] Building CXX object src/test/librados_test_stub/CMakeFiles/rados_test_stub.dir/TestRadosClient.cc.o
+[ 19%] Building CXX object src/test/librados_test_stub/CMakeFiles/rados_test_stub.dir/TestWatchNotify.cc.o
+[ 19%] Linking CXX static library ../../../lib/librados_test_stub.a
+[ 19%] Built target rados_test_stub
+Scanning dependencies of target journal_test_mock
+[ 19%] Building CXX object src/test/journal/CMakeFiles/journal_test_mock.dir/mock/MockJournaler.cc.o
+[ 19%] Linking CXX static library ../../../lib/libjournal_test_mock.a
+[ 19%] Built target journal_test_mock
+Scanning dependencies of target rbd_test_support
+[ 19%] Building CXX object src/test/librbd/CMakeFiles/rbd_test_support.dir/test_support.cc.o
+[ 19%] Linking CXX static library ../../../lib/librbd_test_support.a
+[ 19%] Built target rbd_test_support
+Scanning dependencies of target rbd_test_mock
+[ 19%] Building CXX object src/test/librbd/CMakeFiles/rbd_test_mock.dir/mock/MockImageCtx.cc.o
+[ 19%] Building CXX object src/test/librbd/CMakeFiles/rbd_test_mock.dir/mock/MockJournal.cc.o
+[ 19%] Linking CXX static library ../../../lib/librbd_test_mock.a
+[ 19%] Built target rbd_test_mock
+Scanning dependencies of target ceph_test_mon_rss_usage
+[ 19%] Building CXX object src/test/mon/CMakeFiles/ceph_test_mon_rss_usage.dir/test_mon_rss_usage.cc.o
+[ 19%] Linking CXX executable ../../../bin/ceph_test_mon_rss_usage
+[ 19%] Built target ceph_test_mon_rss_usage
+Scanning dependencies of target ceph_test_mon_memory_target
+[ 19%] Building CXX object src/test/mon/CMakeFiles/ceph_test_mon_memory_target.dir/test_mon_memory_target.cc.o
+[ 19%] Linking CXX executable ../../../bin/ceph_test_mon_memory_target
+[ 19%] Built target ceph_test_mon_memory_target
+Scanning dependencies of target ceph_test_log_rss_usage
+[ 19%] Building CXX object src/test/mon/CMakeFiles/ceph_test_log_rss_usage.dir/test_log_rss_usage.cc.o
+[ 20%] Linking CXX executable ../../../bin/ceph_test_log_rss_usage
+[ 20%] Built target ceph_test_log_rss_usage
+Scanning dependencies of target store_test_fixture
+[ 20%] Building CXX object src/test/objectstore/CMakeFiles/store_test_fixture.dir/store_test_fixture.cc.o
+[ 20%] Built target store_test_fixture
+Scanning dependencies of target test_rgw_a
+[ 20%] Building CXX object src/test/rgw/CMakeFiles/test_rgw_a.dir/test_rgw_common.cc.o
+[ 20%] Linking CXX static library ../../../lib/libtest_rgw_a.a
+[ 20%] Built target test_rgw_a
+Scanning dependencies of target unittest_rgw_string
+[ 20%] Building CXX object src/test/rgw/CMakeFiles/unittest_rgw_string.dir/test_rgw_string.cc.o
+[ 20%] Linking CXX executable ../../../bin/unittest_rgw_string
+[ 20%] Built target unittest_rgw_string
+Scanning dependencies of target rbd_mirror_test
+[ 20%] Building CXX object src/test/rbd_mirror/CMakeFiles/rbd_mirror_test.dir/test_ClusterWatcher.cc.o
+[ 20%] Building CXX object src/test/rbd_mirror/CMakeFiles/rbd_mirror_test.dir/test_PoolWatcher.cc.o
+[ 20%] Building CXX object src/test/rbd_mirror/CMakeFiles/rbd_mirror_test.dir/test_ImageDeleter.cc.o
+[ 20%] Building CXX object src/test/rbd_mirror/CMakeFiles/rbd_mirror_test.dir/test_ImageReplayer.cc.o
+[ 20%] Building CXX object src/test/rbd_mirror/CMakeFiles/rbd_mirror_test.dir/test_ImageSync.cc.o
+[ 20%] Building CXX object src/test/rbd_mirror/CMakeFiles/rbd_mirror_test.dir/test_InstanceWatcher.cc.o
+[ 20%] Building CXX object src/test/rbd_mirror/CMakeFiles/rbd_mirror_test.dir/test_Instances.cc.o
+[ 20%] Building CXX object src/test/rbd_mirror/CMakeFiles/rbd_mirror_test.dir/test_LeaderWatcher.cc.o
+[ 20%] Building CXX object src/test/rbd_mirror/CMakeFiles/rbd_mirror_test.dir/test_fixture.cc.o
+[ 20%] Building CXX object src/test/rbd_mirror/CMakeFiles/rbd_mirror_test.dir/image_map/test_Policy.cc.o
+[ 20%] Linking CXX static library ../../../lib/librbd_mirror_test.a
+[ 20%] Built target rbd_mirror_test
+Scanning dependencies of target systest
+[ 20%] Building CXX object src/test/system/CMakeFiles/systest.dir/cross_process_sem.cc.o
+[ 21%] Building CXX object src/test/system/CMakeFiles/systest.dir/systest_runnable.cc.o
+[ 21%] Building CXX object src/test/system/CMakeFiles/systest.dir/systest_settings.cc.o
+[ 21%] Building CXX object src/test/system/CMakeFiles/systest.dir/st_rados_create_pool.cc.o
+[ 21%] Building CXX object src/test/system/CMakeFiles/systest.dir/st_rados_delete_pool.cc.o
+[ 21%] Building CXX object src/test/system/CMakeFiles/systest.dir/st_rados_list_objects.cc.o
+[ 21%] Linking CXX static library ../../../lib/libsystest.a
+[ 21%] Built target systest
+Scanning dependencies of target isal_crypto_plugin_objs
+[ 21%] Building CXX object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isal_crypto_accel.cc.o
+[ 21%] Building CXX object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isal_crypto_plugin.cc.o
+[ 21%] Building C object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isa-l_crypto/aes/cbc_pre.c.o
+[ 21%] Building ASM object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isa-l_crypto/aes/cbc_multibinary.asm.o
+[ 21%] Building ASM object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isa-l_crypto/aes/keyexp_128.asm.o
+[ 21%] Building ASM object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isa-l_crypto/aes/keyexp_192.asm.o
+[ 22%] Building ASM object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isa-l_crypto/aes/keyexp_256.asm.o
+[ 22%] Building ASM object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isa-l_crypto/aes/keyexp_multibinary.asm.o
+[ 22%] Building ASM object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isa-l_crypto/aes/cbc_dec_128_x4_sse.asm.o
+[ 22%] Building ASM object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isa-l_crypto/aes/cbc_dec_128_x8_avx.asm.o
+[ 22%] Building ASM object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isa-l_crypto/aes/cbc_dec_192_x4_sse.asm.o
+[ 22%] Building ASM object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isa-l_crypto/aes/cbc_dec_192_x8_avx.asm.o
+[ 22%] Building ASM object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isa-l_crypto/aes/cbc_dec_256_x4_sse.asm.o
+[ 22%] Building ASM object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isa-l_crypto/aes/cbc_dec_256_x8_avx.asm.o
+[ 22%] Building ASM object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isa-l_crypto/aes/cbc_enc_128_x4_sb.asm.o
+[ 22%] Building ASM object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isa-l_crypto/aes/cbc_enc_128_x8_sb.asm.o
+[ 22%] Building ASM object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isa-l_crypto/aes/cbc_enc_192_x4_sb.asm.o
+[ 22%] Building ASM object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isa-l_crypto/aes/cbc_enc_192_x8_sb.asm.o
+[ 22%] Building ASM object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isa-l_crypto/aes/cbc_enc_256_x4_sb.asm.o
+[ 22%] Building ASM object src/crypto/isa-l/CMakeFiles/isal_crypto_plugin_objs.dir/isa-l_crypto/aes/cbc_enc_256_x8_sb.asm.o
+[ 22%] Built target isal_crypto_plugin_objs
+Scanning dependencies of target cls_kvs
+[ 22%] Building CXX object src/key_value_store/CMakeFiles/cls_kvs.dir/cls_kvs.cc.o
+[ 22%] Linking CXX shared library ../../lib/libcls_kvs.so
+[ 22%] Built target cls_kvs
+Scanning dependencies of target manpages
+[ 23%] Generating ceph-syn.8, ceph-conf.8, ceph.8, ceph-authtool.8, ceph-kvstore-tool.8, rados.8, ceph-post-file.8, ceph-dencoder.8, ceph-deploy.8, crushtool.8, ceph-run.8, mount.ceph.8, ceph-create-keys.8, ceph-debugpack.8, ceph-clsinfo.8, ceph-volume.8, ceph-volume-systemd.8, ceph-osd.8, osdmaptool.8, ceph-bluestore-tool.8, ceph-mon.8, monmaptool.8, ceph-mds.8, librados-config.8, ceph-fuse.8, rbd-fuse.8, radosgw.8, radosgw-admin.8, rgw-orphan-list.8, ceph-diff-sorted.8, ceph-rbdnamer.8, rbd-mirror.8, rbd-replay-many.8, rbd-replay-prep.8, rbd-replay.8, rbdmap.8, rbd.8, rbd-nbd.8
+Running Sphinx v1.1.3
+loading pickled environment... not yet created
+building [man]: all manpages
+updating environment: 40 added, 0 changed, 0 removed
+reading sources... [  2%] 8/ceph
+reading sources... [  5%] 8/ceph-authtool
+reading sources... [  7%] 8/ceph-bluestore-tool
+reading sources... [ 10%] 8/ceph-clsinfo
+reading sources... [ 12%] 8/ceph-conf
+reading sources... [ 15%] 8/ceph-create-keys
+reading sources... [ 17%] 8/ceph-debugpack
+reading sources... [ 20%] 8/ceph-dencoder
+reading sources... [ 22%] 8/ceph-deploy
+reading sources... [ 25%] 8/ceph-diff-sorted
+reading sources... [ 27%] 8/ceph-fuse
+reading sources... [ 30%] 8/ceph-kvstore-tool
+reading sources... [ 32%] 8/ceph-mds
+reading sources... [ 35%] 8/ceph-mon
+reading sources... [ 37%] 8/ceph-osd
+reading sources... [ 40%] 8/ceph-post-file
+reading sources... [ 42%] 8/ceph-rbdnamer
+reading sources... [ 45%] 8/ceph-run
+reading sources... [ 47%] 8/ceph-syn
+reading sources... [ 50%] 8/ceph-volume
+reading sources... [ 52%] 8/ceph-volume-systemd
+reading sources... [ 55%] 8/crushtool
+reading sources... [ 57%] 8/librados-config
+reading sources... [ 60%] 8/monmaptool
+reading sources... [ 62%] 8/mount.ceph
+reading sources... [ 65%] 8/mount.fuse.ceph
+reading sources... [ 67%] 8/osdmaptool
+reading sources... [ 70%] 8/rados
+reading sources... [ 72%] 8/radosgw
+reading sources... [ 75%] 8/radosgw-admin
+reading sources... [ 77%] 8/rbd
+reading sources... [ 80%] 8/rbd-fuse
+reading sources... [ 82%] 8/rbd-ggate
+reading sources... [ 85%] 8/rbd-mirror
+reading sources... [ 87%] 8/rbd-nbd
+reading sources... [ 90%] 8/rbd-replay
+reading sources... [ 92%] 8/rbd-replay-many
+reading sources... [ 95%] 8/rbd-replay-prep
+reading sources... [ 97%] 8/rbdmap
+reading sources... [100%] 8/rgw-orphan-list
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+writing... ceph-authtool.8 { } ceph-bluestore-tool.8 { } ceph-clsinfo.8 { } ceph-conf.8 { } ceph-create-keys.8 { } ceph-debugpack.8 { } ceph-dencoder.8 { } ceph-deploy.8 { } ceph-diff-sorted.8 { } ceph-fuse.8 { } ceph-kvstore-tool.8 { } ceph-mds.8 { } ceph-mon.8 { } ceph-osd.8 { } ceph-post-file.8 { } ceph-rbdnamer.8 { } ceph-run.8 { } ceph-syn.8 { } ceph-volume-systemd.8 { } ceph-volume.8 { } ceph.8 { } crushtool.8 { } librados-config.8 { } monmaptool.8 { } mount.ceph.8 { } mount.fuse.ceph.8 { } osdmaptool.8 { } rados.8 { } radosgw-admin.8 { } radosgw.8 { } rbd-fuse.8 { } rbd-ggate.8 { } rbd-mirror.8 { } rbd-nbd.8 { } rbd-replay-many.8 { } rbd-replay-prep.8 { } rbd-replay.8 { } rbd.8 { } rbdmap.8 { } rgw-orphan-list.8 { } 
+build succeeded.
+[ 23%] manpages building
+[ 23%] Built target manpages
+Scanning dependencies of target osdc
+[ 23%] Building CXX object src/osdc/CMakeFiles/osdc.dir/Filer.cc.o
+[ 23%] Building CXX object src/osdc/CMakeFiles/osdc.dir/ObjectCacher.cc.o
+[ 23%] Building CXX object src/osdc/CMakeFiles/osdc.dir/Objecter.cc.o
+[ 23%] Building CXX object src/osdc/CMakeFiles/osdc.dir/Striper.cc.o
+[ 24%] Linking CXX static library ../../lib/libosdc.a
+[ 24%] Built target osdc
+Scanning dependencies of target compressor_objs
+[ 24%] Building CXX object src/compressor/CMakeFiles/compressor_objs.dir/Compressor.cc.o
+[ 24%] Built target compressor_objs
+Scanning dependencies of target common-objs
+[ 24%] Building C object src/CMakeFiles/common-objs.dir/ceph_ver.c.o
+[ 24%] Building C object src/CMakeFiles/common-objs.dir/xxHash/xxhash.c.o
+[ 24%] Building CXX object src/CMakeFiles/common-objs.dir/log/Log.cc.o
+[ 24%] Building CXX object src/CMakeFiles/common-objs.dir/mon/MonCap.cc.o
+[ 24%] Building CXX object src/CMakeFiles/common-objs.dir/mon/MonClient.cc.o
+[ 24%] Building CXX object src/CMakeFiles/common-objs.dir/mon/MonMap.cc.o
+[ 24%] Building CXX object src/CMakeFiles/common-objs.dir/mon/MonSub.cc.o
+[ 24%] Building CXX object src/CMakeFiles/common-objs.dir/mgr/MgrClient.cc.o
+[ 24%] Building CXX object src/CMakeFiles/common-objs.dir/mon/PGMap.cc.o
+[ 24%] Building CXX object src/CMakeFiles/common-objs.dir/mgr/ServiceMap.cc.o
+[ 24%] Building CXX object src/CMakeFiles/common-objs.dir/osd/ECMsgTypes.cc.o
+[ 24%] Building CXX object src/CMakeFiles/common-objs.dir/osd/HitSet.cc.o
+[ 24%] Building CXX object src/CMakeFiles/common-objs.dir/osd/OSDMap.cc.o
+[ 24%] Building CXX object src/CMakeFiles/common-objs.dir/osd/OSDMapMapping.cc.o
+[ 24%] Building CXX object src/CMakeFiles/common-objs.dir/osd/osd_types.cc.o
+[ 24%] Building CXX object src/CMakeFiles/common-objs.dir/osd/PGPeeringEvent.cc.o
+[ 25%] Building CXX object src/CMakeFiles/common-objs.dir/osd/OpRequest.cc.o
+[ 25%] Building CXX object src/CMakeFiles/common-objs.dir/osdc/Striper.cc.o
+[ 25%] Building CXX object src/CMakeFiles/common-objs.dir/osdc/Objecter.cc.o
+[ 25%] Building CXX object src/CMakeFiles/common-objs.dir/librbd/Features.cc.o
+[ 25%] Building CXX object src/CMakeFiles/common-objs.dir/mds/MDSMap.cc.o
+[ 25%] Building CXX object src/CMakeFiles/common-objs.dir/mds/FSMap.cc.o
+[ 25%] Building CXX object src/CMakeFiles/common-objs.dir/mds/FSMapUser.cc.o
+[ 25%] Building CXX object src/CMakeFiles/common-objs.dir/mds/inode_backtrace.cc.o
+[ 25%] Building CXX object src/CMakeFiles/common-objs.dir/mds/mdstypes.cc.o
+[ 25%] Building CXX object src/CMakeFiles/common-objs.dir/mds/flock.cc.o
+[ 25%] Built target common-objs
+Scanning dependencies of target json_spirit
+[ 25%] Building CXX object src/json_spirit/CMakeFiles/json_spirit.dir/json_spirit_reader.cpp.o
+[ 25%] Building CXX object src/json_spirit/CMakeFiles/json_spirit.dir/json_spirit_writer.cpp.o
+[ 25%] Linking CXX static library ../../lib/libjson_spirit.a
+[ 25%] Built target json_spirit
+Scanning dependencies of target common-auth-objs
+[ 25%] Building CXX object src/auth/CMakeFiles/common-auth-objs.dir/AuthClientHandler.cc.o
+[ 26%] Building CXX object src/auth/CMakeFiles/common-auth-objs.dir/AuthMethodList.cc.o
+[ 26%] Building CXX object src/auth/CMakeFiles/common-auth-objs.dir/AuthRegistry.cc.o
+[ 26%] Building CXX object src/auth/CMakeFiles/common-auth-objs.dir/AuthSessionHandler.cc.o
+[ 26%] Building CXX object src/auth/CMakeFiles/common-auth-objs.dir/Crypto.cc.o
+[ 26%] Building CXX object src/auth/CMakeFiles/common-auth-objs.dir/KeyRing.cc.o
+[ 26%] Building CXX object src/auth/CMakeFiles/common-auth-objs.dir/RotatingKeyRing.cc.o
+[ 26%] Building CXX object src/auth/CMakeFiles/common-auth-objs.dir/cephx/CephxAuthorizeHandler.cc.o
+[ 26%] Building CXX object src/auth/CMakeFiles/common-auth-objs.dir/cephx/CephxClientHandler.cc.o
+[ 26%] Building CXX object src/auth/CMakeFiles/common-auth-objs.dir/cephx/CephxProtocol.cc.o
+In file included from /app/ceph-14.2.11/src/auth/cephx/CephxProtocol.cc:15:
+/app/ceph-14.2.11/src/auth/cephx/CephxProtocol.h: In member function 'bool CephXTicketManager::verify_service_ticket_reply(CryptoKey&, ceph::buffer::v14_2_0::list::const_iterator&)':
+/app/ceph-14.2.11/src/auth/cephx/CephxProtocol.h:309:5: warning: 'type' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (i != tickets_map.end())
+     ^~
+/app/ceph-14.2.11/src/auth/cephx/CephxProtocol.cc:292:14: note: 'type' was declared here
+     uint32_t type;
+              ^~~~
+/app/ceph-14.2.11/src/auth/cephx/CephxProtocol.cc:291:19: warning: 'num' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   for (int i=0; i<(int)num; i++) {
+                   ^~~~~~~~
+[ 26%] Building CXX object src/auth/CMakeFiles/common-auth-objs.dir/cephx/CephxSessionHandler.cc.o
+[ 26%] Building CXX object src/auth/CMakeFiles/common-auth-objs.dir/none/AuthNoneAuthorizeHandler.cc.o
+[ 26%] Building CXX object src/auth/CMakeFiles/common-auth-objs.dir/unknown/AuthUnknownAuthorizeHandler.cc.o
+[ 26%] Built target common-auth-objs
+Scanning dependencies of target common_texttable_obj
+[ 26%] Building CXX object src/common/CMakeFiles/common_texttable_obj.dir/TextTable.cc.o
+[ 26%] Built target common_texttable_obj
+Scanning dependencies of target arch
+[ 26%] Building CXX object src/arch/CMakeFiles/arch.dir/probe.cc.o
+[ 26%] Building C object src/arch/CMakeFiles/arch.dir/intel.c.o
+[ 26%] Linking CXX static library ../../lib/libarch.a
+[ 26%] Built target arch
+Scanning dependencies of target common_buffer_obj
+[ 26%] Building CXX object src/common/CMakeFiles/common_buffer_obj.dir/buffer.cc.o
+[ 26%] Built target common_buffer_obj
+Scanning dependencies of target common-common-objs
+[ 26%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/AsyncOpTracker.cc.o
+[ 26%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/BackTrace.cc.o
+[ 26%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/ConfUtils.cc.o
+[ 26%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/Cycles.cc.o
+[ 26%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/DecayCounter.cc.o
+[ 26%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/Finisher.cc.o
+[ 26%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/Formatter.cc.o
+[ 26%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/Graylog.cc.o
+[ 26%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/HTMLFormatter.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/HeartbeatMap.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/LogClient.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/LogEntry.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/Mutex.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/OutputDataSocket.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/PluginRegistry.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/Readahead.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/SloppyCRCMap.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/SubProcess.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/Thread.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/Throttle.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/Timer.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/TracepointProvider.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/TrackedOp.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/WorkQueue.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/address_helper.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/admin_socket.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/admin_socket_client.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/assert.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/bit_str.cc.o
+[ 27%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/blkdev.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/bloom_filter.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/ceph_argparse.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/ceph_context.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/ceph_crypto.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/ceph_crypto_cms.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/ceph_frag.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/ceph_fs.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/ceph_hash.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/ceph_json.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/ceph_strings.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/ceph_time.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/cmdparse.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/code_environment.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/common_init.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/compat.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/condition_variable_debug.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/config.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/config_values.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/dns_resolve.cc.o
+[ 28%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/dout.cc.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/entity_name.cc.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/environment.cc.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/errno.cc.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/escape.cc.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/fd.cc.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/fs_types.cc.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/hex.cc.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/histogram.cc.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/hobject.cc.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/hostname.cc.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/ipaddr.cc.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/iso_8601.cc.o
+[ 29%] Building C object src/common/CMakeFiles/common-common-objs.dir/linux_version.c.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/lockdep.cc.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/mempool.cc.o
+[ 29%] Building C object src/common/CMakeFiles/common-common-objs.dir/mime.c.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/mutex_debug.cc.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/numa.cc.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/options.cc.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/page.cc.o
+[ 29%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/perf_counters.cc.o
+[ 30%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/perf_counters_collection.cc.o
+[ 30%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/perf_histogram.cc.o
+[ 30%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/pick_address.cc.o
+/app/ceph-14.2.11/src/common/pick_address.cc: In function 'int get_iface_numa_node(const string&, int*)':
+/app/ceph-14.2.11/src/common/pick_address.cc:517:11: warning: comparison of integer expressions of different signedness: 'int' and 'std::basic_string<char>::size_type' {aka 'long unsigned int'} [-Wsign-compare]
+   if (pos != string::npos) {
+       ~~~~^~~~~~~~~
+[ 30%] Building C object src/common/CMakeFiles/common-common-objs.dir/reverse.c.o
+[ 30%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/run_cmd.cc.o
+[ 30%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/scrub_types.cc.o
+[ 30%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/shared_mutex_debug.cc.o
+[ 30%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/signal.cc.o
+[ 30%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/snap_types.cc.o
+[ 30%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/str_list.cc.o
+[ 30%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/str_map.cc.o
+[ 30%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/strtol.cc.o
+[ 30%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/types.cc.o
+[ 30%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/url_escape.cc.o
+[ 30%] Building C object src/common/CMakeFiles/common-common-objs.dir/utf8.c.o
+[ 30%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/util.cc.o
+[ 30%] Building CXX object src/common/CMakeFiles/common-common-objs.dir/version.cc.o
+[ 30%] Building C object src/common/CMakeFiles/common-common-objs.dir/xattr.c.o
+[ 30%] Built target common-common-objs
+Scanning dependencies of target crush_objs
+[ 30%] Building C object src/crush/CMakeFiles/crush_objs.dir/builder.c.o
+[ 30%] Building C object src/crush/CMakeFiles/crush_objs.dir/mapper.c.o
+[ 30%] Building C object src/crush/CMakeFiles/crush_objs.dir/crush.c.o
+[ 30%] Building C object src/crush/CMakeFiles/crush_objs.dir/hash.c.o
+[ 30%] Building CXX object src/crush/CMakeFiles/crush_objs.dir/CrushWrapper.cc.o
+[ 30%] Building CXX object src/crush/CMakeFiles/crush_objs.dir/CrushCompiler.cc.o
+[ 30%] Building CXX object src/crush/CMakeFiles/crush_objs.dir/CrushTester.cc.o
+[ 30%] Building CXX object src/crush/CMakeFiles/crush_objs.dir/CrushLocation.cc.o
+[ 30%] Built target crush_objs
+Scanning dependencies of target common-msg-objs
+[ 30%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/DispatchQueue.cc.o
+[ 30%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/Message.cc.o
+[ 30%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/Messenger.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/QueueStrategy.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/msg_types.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/simple/Accepter.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/simple/Pipe.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/simple/PipeConnection.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/simple/SimpleMessenger.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/AsyncConnection.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/AsyncMessenger.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/Protocol.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/ProtocolV1.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/ProtocolV2.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/Event.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/EventSelect.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/PosixStack.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/Stack.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/crypto_onwire.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/frames_v2.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/net_handler.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/EventEpoll.cc.o
+[ 31%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/rdma/Infiniband.cc.o
+[ 32%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/rdma/RDMAConnectedSocketImpl.cc.o
+[ 32%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/rdma/RDMAIWARPConnectedSocketImpl.cc.o
+[ 32%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/rdma/RDMAServerSocketImpl.cc.o
+[ 32%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/rdma/RDMAIWARPServerSocketImpl.cc.o
+[ 32%] Building CXX object src/msg/CMakeFiles/common-msg-objs.dir/async/rdma/RDMAStack.cc.o
+[ 32%] Built target common-msg-objs
+Scanning dependencies of target global_common_objs
+[ 32%] Building CXX object src/global/CMakeFiles/global_common_objs.dir/global_context.cc.o
+[ 32%] Built target global_common_objs
+Scanning dependencies of target erasure_code
+[ 32%] Building CXX object src/erasure-code/CMakeFiles/erasure_code.dir/ErasureCodePlugin.cc.o
+[ 32%] Linking CXX static library ../../lib/liberasure_code.a
+[ 32%] Built target erasure_code
+Scanning dependencies of target libglobal_objs
+[ 32%] Building CXX object src/global/CMakeFiles/libglobal_objs.dir/global_init.cc.o
+[ 32%] Building CXX object src/global/CMakeFiles/libglobal_objs.dir/pidfile.cc.o
+[ 32%] Building CXX object src/global/CMakeFiles/libglobal_objs.dir/signal_handler.cc.o
+[ 32%] Built target libglobal_objs
+Scanning dependencies of target heap_profiler
+[ 32%] Building CXX object src/perfglue/CMakeFiles/heap_profiler.dir/heap_profiler.cc.o
+[ 32%] Linking CXX static library ../../lib/libheap_profiler.a
+[ 32%] Built target heap_profiler
+Scanning dependencies of target common_prioritycache_obj
+[ 32%] Building CXX object src/common/CMakeFiles/common_prioritycache_obj.dir/PriorityCache.cc.o
+[ 32%] Built target common_prioritycache_obj
+Scanning dependencies of target mgr_cap_obj
+[ 32%] Building CXX object src/mgr/CMakeFiles/mgr_cap_obj.dir/MgrCap.cc.o
+[ 32%] Built target mgr_cap_obj
+Scanning dependencies of target ceph_crypto_isal
+[ 32%] Building CXX object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isal_crypto_accel.cc.o
+[ 32%] Building CXX object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isal_crypto_plugin.cc.o
+[ 32%] Building C object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isa-l_crypto/aes/cbc_pre.c.o
+[ 33%] Building ASM object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isa-l_crypto/aes/cbc_multibinary.asm.o
+[ 33%] Building ASM object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isa-l_crypto/aes/keyexp_128.asm.o
+[ 33%] Building ASM object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isa-l_crypto/aes/keyexp_192.asm.o
+[ 33%] Building ASM object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isa-l_crypto/aes/keyexp_256.asm.o
+[ 33%] Building ASM object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isa-l_crypto/aes/keyexp_multibinary.asm.o
+[ 33%] Building ASM object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isa-l_crypto/aes/cbc_dec_128_x4_sse.asm.o
+[ 33%] Building ASM object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isa-l_crypto/aes/cbc_dec_128_x8_avx.asm.o
+[ 33%] Building ASM object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isa-l_crypto/aes/cbc_dec_192_x4_sse.asm.o
+[ 33%] Building ASM object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isa-l_crypto/aes/cbc_dec_192_x8_avx.asm.o
+[ 33%] Building ASM object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isa-l_crypto/aes/cbc_dec_256_x4_sse.asm.o
+[ 33%] Building ASM object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isa-l_crypto/aes/cbc_dec_256_x8_avx.asm.o
+[ 33%] Building ASM object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isa-l_crypto/aes/cbc_enc_128_x4_sb.asm.o
+[ 33%] Building ASM object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isa-l_crypto/aes/cbc_enc_128_x8_sb.asm.o
+[ 33%] Building ASM object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isa-l_crypto/aes/cbc_enc_192_x4_sb.asm.o
+[ 33%] Building ASM object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isa-l_crypto/aes/cbc_enc_192_x8_sb.asm.o
+[ 33%] Building ASM object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isa-l_crypto/aes/cbc_enc_256_x4_sb.asm.o
+[ 33%] Building ASM object src/crypto/isa-l/CMakeFiles/ceph_crypto_isal.dir/isa-l_crypto/aes/cbc_enc_256_x8_sb.asm.o
+[ 33%] Linking CXX shared library ../../../lib/libceph_crypto_isal.so
+[ 33%] Built target ceph_crypto_isal
+Scanning dependencies of target ceph_crypto_openssl
+[ 33%] Building CXX object src/crypto/openssl/CMakeFiles/ceph_crypto_openssl.dir/openssl_crypto_accel.cc.o
+[ 33%] Building CXX object src/crypto/openssl/CMakeFiles/ceph_crypto_openssl.dir/openssl_crypto_plugin.cc.o
+[ 33%] Linking CXX shared library ../../../lib/libceph_crypto_openssl.so
+[ 33%] Built target ceph_crypto_openssl
+Scanning dependencies of target ceph_zstd
+[ 34%] Building CXX object src/compressor/zstd/CMakeFiles/ceph_zstd.dir/CompressionPluginZstd.cc.o
+[ 34%] Linking CXX shared library ../../../lib/libceph_zstd.so
+[ 34%] Built target ceph_zstd
+Scanning dependencies of target ec_isa
+[ 34%] Building C object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/ec_base.c.o
+[ 34%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_2vect_dot_prod_sse.asm.o
+[ 34%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_3vect_dot_prod_sse.asm.o
+[ 34%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_4vect_dot_prod_sse.asm.o
+[ 34%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_5vect_dot_prod_sse.asm.o
+[ 34%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_6vect_dot_prod_sse.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_vect_dot_prod_sse.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_2vect_mad_avx2.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_3vect_mad_avx2.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_4vect_mad_avx2.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_5vect_mad_avx2.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_6vect_mad_avx2.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_vect_mad_avx2.asm.o
+[ 35%] Building C object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/ec_highlevel_func.c.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_2vect_mad_avx.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_3vect_mad_avx.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_4vect_mad_avx.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_5vect_mad_avx.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_6vect_mad_avx.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_vect_mad_avx.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/ec_multibinary.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_2vect_mad_sse.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_3vect_mad_sse.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_4vect_mad_sse.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_5vect_mad_sse.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_6vect_mad_sse.asm.o
+[ 35%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_vect_mad_sse.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_2vect_dot_prod_avx2.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_3vect_dot_prod_avx2.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_4vect_dot_prod_avx2.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_5vect_dot_prod_avx2.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_6vect_dot_prod_avx2.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_vect_dot_prod_avx2.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_vect_mul_avx.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_2vect_dot_prod_avx.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_3vect_dot_prod_avx.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_4vect_dot_prod_avx.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_5vect_dot_prod_avx.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_6vect_dot_prod_avx.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_vect_dot_prod_avx.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_vect_mul_sse.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_2vect_dot_prod_avx512.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_2vect_mad_avx512.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_3vect_dot_prod_avx512.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_3vect_mad_avx512.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_4vect_dot_prod_avx512.asm.o
+[ 36%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_4vect_mad_avx512.asm.o
+[ 37%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_vect_dot_prod_avx512.asm.o
+[ 37%] Building ASM object src/erasure-code/isa/CMakeFiles/ec_isa.dir/__/__/isa-l/erasure_code/gf_vect_mad_avx512.asm.o
+[ 37%] Building CXX object src/erasure-code/isa/CMakeFiles/ec_isa.dir/ErasureCodeIsa.cc.o
+[ 37%] Building CXX object src/erasure-code/isa/CMakeFiles/ec_isa.dir/ErasureCodeIsaTableCache.cc.o
+[ 37%] Building CXX object src/erasure-code/isa/CMakeFiles/ec_isa.dir/ErasureCodePluginIsa.cc.o
+[ 37%] Building CXX object src/erasure-code/isa/CMakeFiles/ec_isa.dir/xor_op.cc.o
+[ 37%] Linking CXX shared library ../../../lib/libec_isa.so
+[ 37%] Built target ec_isa
+Scanning dependencies of target ec_jerasure_sse3
+[ 37%] Linking CXX shared library ../../../lib/libec_jerasure_sse3.so
+[ 37%] Built target ec_jerasure_sse3
+Scanning dependencies of target ec_jerasure_generic
+[ 37%] Linking CXX shared library ../../../lib/libec_jerasure_generic.so
+[ 37%] Built target ec_jerasure_generic
+Scanning dependencies of target ec_jerasure_sse4
+[ 37%] Linking CXX shared library ../../../lib/libec_jerasure_sse4.so
+[ 37%] Built target ec_jerasure_sse4
+Scanning dependencies of target ec_lrc
+[ 37%] Building CXX object src/erasure-code/lrc/CMakeFiles/ec_lrc.dir/ErasureCodePluginLrc.cc.o
+[ 37%] Building CXX object src/erasure-code/lrc/CMakeFiles/ec_lrc.dir/ErasureCodeLrc.cc.o
+[ 37%] Building CXX object src/erasure-code/lrc/CMakeFiles/ec_lrc.dir/__/__/common/str_map.cc.o
+[ 37%] Linking CXX shared library ../../../lib/libec_lrc.so
+[ 37%] Built target ec_lrc
+Scanning dependencies of target ec_shec_sse3
+[ 38%] Linking CXX shared library ../../../lib/libec_shec_sse3.so
+[ 38%] Built target ec_shec_sse3
+Scanning dependencies of target ec_shec_generic
+[ 38%] Linking CXX shared library ../../../lib/libec_shec_generic.so
+[ 38%] Built target ec_shec_generic
+Scanning dependencies of target ec_shec_sse4
+[ 38%] Linking CXX shared library ../../../lib/libec_shec_sse4.so
+[ 38%] Built target ec_shec_sse4
+Scanning dependencies of target ec_clay
+[ 38%] Building CXX object src/erasure-code/clay/CMakeFiles/ec_clay.dir/ErasureCodePluginClay.cc.o
+[ 38%] Building CXX object src/erasure-code/clay/CMakeFiles/ec_clay.dir/ErasureCodeClay.cc.o
+[ 38%] Building CXX object src/erasure-code/clay/CMakeFiles/ec_clay.dir/__/__/common/str_map.cc.o
+[ 38%] Linking CXX shared library ../../../lib/libec_clay.so
+[ 38%] Built target ec_clay
+Scanning dependencies of target cls_rgw
+[ 38%] Building CXX object src/cls/CMakeFiles/cls_rgw.dir/rgw/cls_rgw.cc.o
+[ 38%] Building CXX object src/cls/CMakeFiles/cls_rgw.dir/rgw/cls_rgw_ops.cc.o
+[ 38%] Building CXX object src/cls/CMakeFiles/cls_rgw.dir/rgw/cls_rgw_types.cc.o
+[ 38%] Building CXX object src/cls/CMakeFiles/cls_rgw.dir/__/common/ceph_json.cc.o
+[ 38%] Linking CXX shared library ../../lib/libcls_rgw.so
+[ 38%] Built target cls_rgw
+Scanning dependencies of target cls_refcount
+[ 38%] Building CXX object src/cls/CMakeFiles/cls_refcount.dir/refcount/cls_refcount.cc.o
+[ 38%] Building CXX object src/cls/CMakeFiles/cls_refcount.dir/refcount/cls_refcount_ops.cc.o
+[ 38%] Building CXX object src/cls/CMakeFiles/cls_refcount.dir/__/common/ceph_json.cc.o
+[ 38%] Linking CXX shared library ../../lib/libcls_refcount.so
+[ 38%] Built target cls_refcount
+Scanning dependencies of target krbd
+[ 39%] Building CXX object src/CMakeFiles/krbd.dir/krbd.cc.o
+[ 39%] Linking CXX static library ../lib/libkrbd.a
+[ 39%] Built target krbd
+Scanning dependencies of target librados_impl
+[ 39%] Building CXX object src/librados/CMakeFiles/librados_impl.dir/IoCtxImpl.cc.o
+[ 39%] Building CXX object src/librados/CMakeFiles/librados_impl.dir/RadosXattrIter.cc.o
+[ 39%] Building CXX object src/librados/CMakeFiles/librados_impl.dir/RadosClient.cc.o
+[ 39%] Building CXX object src/librados/CMakeFiles/librados_impl.dir/librados_util.cc.o
+[ 39%] Building CXX object src/librados/CMakeFiles/librados_impl.dir/librados_tp.cc.o
+[ 39%] Linking CXX static library ../../lib/liblibrados_impl.a
+[ 39%] Built target librados_impl
+Scanning dependencies of target mds
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/Capability.cc.o
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/MDSDaemon.cc.o
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/MDSRank.cc.o
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/Beacon.cc.o
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/flock.cc.o
+[ 39%] Building C object src/mds/CMakeFiles/mds.dir/locks.c.o
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/journal.cc.o
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/Server.cc.o
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/Mutation.cc.o
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/MDCache.cc.o
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/RecoveryQueue.cc.o
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/StrayManager.cc.o
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/PurgeQueue.cc.o
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/Locker.cc.o
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/Migrator.cc.o
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/MDBalancer.cc.o
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/CDentry.cc.o
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/CDir.cc.o
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/CInode.cc.o
+[ 39%] Building CXX object src/mds/CMakeFiles/mds.dir/LogEvent.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/MDSTable.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/InoTable.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/JournalPointer.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/MDSTableClient.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/MDSTableServer.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/ScrubStack.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/DamageTable.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/SimpleLock.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/SnapRealm.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/SnapServer.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/SnapClient.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/snap.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/SessionMap.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/MDSContext.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/MDSAuthCaps.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/MDLog.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/MDSCacheObject.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/Mantle.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/Anchor.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/OpenFileTable.cc.o
+[ 40%] Building CXX object src/mds/CMakeFiles/mds.dir/__/common/TrackedOp.cc.o
+[ 41%] Building CXX object src/mds/CMakeFiles/mds.dir/__/common/MemoryModel.cc.o
+[ 41%] Building CXX object src/mds/CMakeFiles/mds.dir/__/osdc/Journaler.cc.o
+[ 41%] Linking CXX static library ../../lib/libmds.a
+[ 41%] Built target mds
+Scanning dependencies of target cls_lua
+[ 41%] Building CXX object src/cls/CMakeFiles/cls_lua.dir/lua/cls_lua.cc.o
+[ 41%] Building CXX object src/cls/CMakeFiles/cls_lua.dir/lua/lua_bufferlist.cc.o
+[ 41%] Linking CXX shared library ../../lib/libcls_lua.so
+[ 41%] Built target cls_lua
+[ 41%] Generate rgw_iam_policy_keywords.frag.cc
+Scanning dependencies of target rgw_common
+[ 41%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/services/svc_finisher.cc.o
+[ 41%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/services/svc_notify.cc.o
+[ 41%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/services/svc_quota.cc.o
+[ 41%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/services/svc_sync_modules.cc.o
+[ 41%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/services/svc_rados.cc.o
+[ 41%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/services/svc_sys_obj.cc.o
+[ 41%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/services/svc_sys_obj_cache.cc.o
+[ 41%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/services/svc_sys_obj_core.cc.o
+[ 41%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/services/svc_zone.cc.o
+[ 41%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/services/svc_zone_utils.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_service.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_acl.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_acl_s3.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_acl_swift.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_aio_throttle.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_auth.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_auth_s3.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_arn.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_basic_types.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_bucket.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_cache.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_common.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_compression.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_cors.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_cors_s3.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_dencoder.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_env.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_es_query.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_formats.cc.o
+[ 42%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_gc.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_http_client.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_json_enc.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_keystone.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_ldap.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_lc.cc.o
+/app/ceph-14.2.11/src/rgw/rgw_lc.cc: In function 'std::string rgw::lc::s3_expiration_header(DoutPrefixProvider*, const rgw_obj_key&, const RGWObjTags&, const real_time&, const std::map<std::basic_string<char>, ceph::buffer::v14_2_0::list>&)':
+/app/ceph-14.2.11/src/rgw/rgw_lc.cc:1568:36: warning: '*((void*)& expiration_date +8)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   boost::optional<ceph::real_time> expiration_date;
+                                    ^~~~~~~~~~~~~~~
+/app/ceph-14.2.11/src/rgw/rgw_lc.cc:1632:38: warning: '*((void*)& rule_expiration_date +8)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     boost::optional<ceph::real_time> rule_expiration_date;
+                                      ^~~~~~~~~~~~~~~~~~~~
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_lc_s3.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_metadata.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_multi.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_multi_del.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_pubsub.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_sync.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_data_sync.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_sync_counters.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_sync_module.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_sync_module_aws.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_sync_module_es.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_sync_module_es_rest.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_sync_module_log.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_sync_module_pubsub.cc.o
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_pubsub_push.cc.o
+/app/ceph-14.2.11/src/rgw/rgw_pubsub_push.cc:223:40: warning: 'maybe_unused' attribute ignored [-Wattributes]
+     [[maybe_unused]] const ack_level_t ack_level; // TODO not used for now
+                                        ^~~~~~~~~
+[ 43%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_notify.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_notify_event_type.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_sync_module_pubsub_rest.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_sync_log_trim.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_sync_trace.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_period_history.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_period_puller.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_reshard.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_coroutine.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_cr_rados.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_cr_rest.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_cr_tools.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_object_expirer_core.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_op.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_otp.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_policy_s3.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_putobj.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_putobj_processor.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_quota.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_rados.cc.o
+[ 44%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_resolve.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_rest.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_rest_client.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_rest_conn.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_rest_log.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_rest_metadata.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_rest_pubsub.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_rest_pubsub_common.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_rest_realm.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_rest_role.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_rest_s3.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_role.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_string.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_tag.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_tag_s3.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_tools.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_user.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_website.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_xml.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_xml_enc.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_torrent.cc.o
+[ 45%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_crypt.cc.o
+[ 46%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_crypt_sanitize.cc.o
+[ 46%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_iam_policy.cc.o
+[ 46%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_rest_user_policy.cc.o
+[ 46%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_zone.cc.o
+[ 46%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_sts.cc.o
+[ 46%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_rest_sts.cc.o
+[ 46%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_perf_counters.cc.o
+[ 46%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_object_lock.cc.o
+[ 46%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_rest_iam.cc.o
+[ 46%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_url.cc.o
+[ 46%] Building CXX object src/rgw/CMakeFiles/rgw_common.dir/rgw_amqp.cc.o
+[ 46%] Built target rgw_common
+Scanning dependencies of target rbd_internal
+[ 46%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/AsyncObjectThrottle.cc.o
+[ 46%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/AsyncRequest.cc.o
+[ 46%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/DeepCopyRequest.cc.o
+[ 46%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/ExclusiveLock.cc.o
+[ 46%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/ImageCtx.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/ImageState.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/ImageWatcher.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/internal.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/Journal.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/LibrbdAdminSocketHook.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/LibrbdWriteback.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/ManagedLock.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/MirroringWatcher.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/ObjectMap.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/Operations.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/TrashWatcher.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/Utils.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/Watcher.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/api/Config.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/api/DiffIterate.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/api/Group.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/api/Image.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/api/Migration.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/api/Mirror.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/api/Namespace.cc.o
+[ 47%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/api/Pool.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/api/PoolMetadata.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/api/Snapshot.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/api/Trash.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/cache/ImageWriteback.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/cache/ObjectCacherObjectDispatch.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/cache/PassthroughImageCache.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/deep_copy/ImageCopyRequest.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/deep_copy/MetadataCopyRequest.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/deep_copy/ObjectCopyRequest.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/deep_copy/SetHeadRequest.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/deep_copy/SnapshotCopyRequest.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/deep_copy/SnapshotCreateRequest.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/deep_copy/Utils.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/exclusive_lock/AutomaticPolicy.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/exclusive_lock/PreAcquireRequest.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/exclusive_lock/PostAcquireRequest.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/exclusive_lock/PreReleaseRequest.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/exclusive_lock/StandardPolicy.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/image/AttachChildRequest.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/image/AttachParentRequest.cc.o
+[ 48%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/image/CloneRequest.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/image/CloseRequest.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/image/CreateRequest.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/image/DetachChildRequest.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/image/DetachParentRequest.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/image/ListWatchersRequest.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/image/OpenRequest.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/image/PreRemoveRequest.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/image/RefreshParentRequest.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/image/RefreshRequest.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/image/RemoveRequest.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/image/SetFlagsRequest.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/image/SetSnapRequest.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/image/ValidatePoolRequest.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/image_watcher/NotifyLockOwner.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/io/AioCompletion.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/io/AsyncOperation.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/io/CopyupRequest.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/io/ImageDispatchSpec.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/io/ImageRequest.cc.o
+[ 49%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/io/ImageRequestWQ.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/io/ObjectDispatch.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/io/ObjectDispatchSpec.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/io/ObjectDispatcher.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/io/ObjectRequest.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/io/ReadResult.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/io/Utils.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/journal/CreateRequest.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/journal/DemoteRequest.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/journal/ObjectDispatch.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/journal/OpenRequest.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/journal/PromoteRequest.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/journal/RemoveRequest.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/journal/Replay.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/journal/ResetRequest.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/journal/StandardPolicy.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/journal/Utils.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/managed_lock/AcquireRequest.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/managed_lock/BreakRequest.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/managed_lock/GetLockerRequest.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/managed_lock/ReacquireRequest.cc.o
+[ 50%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/managed_lock/ReleaseRequest.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/managed_lock/Utils.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/mirror/DemoteRequest.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/mirror/DisableRequest.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/mirror/EnableRequest.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/mirror/GetInfoRequest.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/mirror/GetStatusRequest.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/mirror/PromoteRequest.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/object_map/CreateRequest.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/object_map/InvalidateRequest.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/object_map/LockRequest.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/object_map/RefreshRequest.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/object_map/RemoveRequest.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/object_map/Request.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/object_map/ResizeRequest.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/object_map/SnapshotCreateRequest.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/object_map/SnapshotRemoveRequest.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/object_map/SnapshotRollbackRequest.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/object_map/UnlockRequest.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/object_map/UpdateRequest.cc.o
+[ 51%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/DisableFeaturesRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/EnableFeaturesRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/FlattenRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/MetadataRemoveRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/MetadataSetRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/MigrateRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/ObjectMapIterate.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/RebuildObjectMapRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/RenameRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/Request.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/ResizeRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/SnapshotCreateRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/SnapshotProtectRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/SnapshotRemoveRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/SnapshotRenameRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/SnapshotRollbackRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/SnapshotUnprotectRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/SnapshotLimitRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/SparsifyRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/operation/TrimRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/trash/MoveRequest.cc.o
+[ 52%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/trash/RemoveRequest.cc.o
+[ 53%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/watcher/Notifier.cc.o
+[ 53%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/watcher/RewatchRequest.cc.o
+[ 53%] Building CXX object src/librbd/CMakeFiles/rbd_internal.dir/__/common/ContextCompletion.cc.o
+[ 53%] Linking CXX static library ../../lib/librbd_internal.a
+/opt/rh/devtoolset-8/root/usr/bin/ranlib: ../../lib/librbd_internal.a: No space left on device
+make[2]: *** [lib/librbd_internal.a] Error 1
+make[2]: *** Deleting file `lib/librbd_internal.a'
+make[1]: *** [src/librbd/CMakeFiles/rbd_internal.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+
+Traceback (most recent call last):
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/bin/nodeenv", line 8, in <module>
+    sys.exit(main())
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/nodeenv.py", line 1065, in main
+    create_environment(env_dir, opt)
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/nodeenv.py", line 951, in create_environment
+    install_node(env_dir, src_dir, opt)
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/nodeenv.py", line 716, in install_node
+    install_node_wrapped(env_dir, src_dir, opt)
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/nodeenv.py", line 738, in install_node_wrapped
+    download_node_src(node_url, src_dir, opt)
+  File "/app/ceph-14.2.11/build/src/pybind/mgr/dashboard/node-env/lib/python2.7/site-packages/nodeenv.py", line 565, in download_node_src
+    dl_contents = io.BytesIO(urlopen(node_url).read())
+  File "/usr/lib64/python2.7/socket.py", line 351, in read
+    data = self._sock.recv(rbufsize)
+  File "/usr/lib64/python2.7/httplib.py", line 611, in read
+    s = self.fp.read(amt)
+  File "/usr/lib64/python2.7/socket.py", line 380, in read
+    data = self._sock.recv(left)
+  File "/usr/lib64/python2.7/ssl.py", line 757, in recv
+    return self.read(buflen)
+  File "/usr/lib64/python2.7/ssl.py", line 651, in read
+    v = self._sslobj.read(len or 1024)
+socket.error: [Errno 104] Connection reset by peer
+make[2]: *** [src/pybind/mgr/dashboard/node-env/bin/npm] Error 1
+make[1]: *** [src/pybind/mgr/dashboard/CMakeFiles/mgr-dashboard-nodeenv.dir/all] Error 2
+make: *** [all] Error 2
